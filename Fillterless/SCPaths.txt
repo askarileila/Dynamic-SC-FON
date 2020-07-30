@@ -1,0 +1,2016 @@
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:22 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 
+Nodes of this service chain are: Src: 17, 16->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:22 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+20->19, 19->18, 18->17, 17->16, 16->1, 1->46, 46->27, 27->26, 26->25, 25->24, 24->23, 
+Nodes of this service chain are: Src: 20, 16->1->46-> ,Dst:23
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:22 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+35->36, 36->37, 37->27, 27->16, 16->1, 1->46, 46->37, 37->36, 36->35, 35->34, 
+Nodes of this service chain are: Src: 35, 16->1->46->34->34-> ,Dst:34
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:22 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+10->9, 
+Nodes of this service chain are: Src: 10, 9->9->9->9->9-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+5->6, 6->7, 7->8, 8->9, 9->1, 1->46, 46->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->46, 46->1, 1->2, 2->3, 3->4, 
+Nodes of this service chain are: Src: 5, 9->1->34-> ,Dst:4
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+41->40, 
+Nodes of this service chain are: Src: 41, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+29->28, 28->27, 
+Nodes of this service chain are: Src: 29, 27->27->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+10->9, 9->1, 
+Nodes of this service chain are: Src: 10, 9->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+22->23, 
+Nodes of this service chain are: Src: 22, 23->23->23-> ,Dst:23
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+18->17, 17->16, 16->27, 27->26, 26->25, 25->24, 24->23, 23->24, 24->25, 25->26, 26->27, 27->46, 46->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->38, 38->39, 39->40, 40->39, 39->38, 38->37, 37->27, 27->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 18, 16->23->46->34->40-> ,Dst:19
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+7->8, 8->9, 9->1, 
+Nodes of this service chain are: Src: 7, 9->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+12->11, 11->10, 10->9, 9->1, 1->46, 46->37, 37->38, 38->39, 39->40, 40->39, 39->38, 38->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 12, 9->1->40-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+36->37, 
+Nodes of this service chain are: Src: 36, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 
+Nodes of this service chain are: Src: 17, 16->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+8->9, 9->1, 
+Nodes of this service chain are: Src: 8, 9->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+12->11, 11->10, 10->9, 9->1, 1->46, 46->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 12, 9->1->37-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+39->40, 40->39, 39->38, 38->37, 37->46, 46->9, 9->46, 46->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->27, 
+Nodes of this service chain are: Src: 39, 40->37->46->9->34-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+15->16, 16->1, 
+Nodes of this service chain are: Src: 15, 16->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 1->46, 46->9, 
+Nodes of this service chain are: Src: 17, 16->1->46->9->9-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+14->15, 15->16, 16->9, 9->46, 46->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->38, 38->39, 39->40, 40->39, 39->38, 38->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 14, 16->9->46->34->40-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+26->27, 27->37, 
+Nodes of this service chain are: Src: 26, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+41->40, 
+Nodes of this service chain are: Src: 41, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+2->1, 1->16, 16->27, 27->37, 37->46, 46->27, 27->26, 26->25, 25->24, 24->23, 23->24, 24->25, 25->26, 26->27, 27->46, 46->9, 
+Nodes of this service chain are: Src: 2, 16->37->46->46->23-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+47->46, 46->37, 37->46, 46->1, 1->9, 
+Nodes of this service chain are: Src: 47, 37->1->9->9->9-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+24->23, 
+Nodes of this service chain are: Src: 24, 23->23->23-> ,Dst:23
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->37, 37->46, 46->1, 1->9, 9->46, 46->45, 45->44, 
+Nodes of this service chain are: Src: 45, 37->1->9->44->44-> ,Dst:44
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+7->8, 8->9, 9->46, 46->37, 37->46, 46->9, 9->8, 8->7, 7->6, 
+Nodes of this service chain are: Src: 7, 9->37->6->6->6-> ,Dst:6
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+48->47, 47->46, 46->37, 37->46, 46->1, 1->46, 46->45, 45->44, 44->45, 45->46, 46->47, 47->48, 48->49, 
+Nodes of this service chain are: Src: 48, 37->1->44-> ,Dst:49
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+43->42, 42->41, 41->40, 40->39, 39->38, 38->37, 37->46, 46->45, 45->44, 
+Nodes of this service chain are: Src: 43, 40->37->46->44->44-> ,Dst:44
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+47->46, 46->45, 45->44, 
+Nodes of this service chain are: Src: 47, 46->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+29->28, 28->27, 27->46, 46->1, 
+Nodes of this service chain are: Src: 29, 27->27->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 
+Nodes of this service chain are: Src: 17, 16->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+50->51, 51->1, 1->46, 
+Nodes of this service chain are: Src: 50, 46->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+35->36, 36->37, 
+Nodes of this service chain are: Src: 35, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->37, 37->27, 27->46, 46->9, 9->46, 46->45, 45->44, 
+Nodes of this service chain are: Src: 45, 37->27->9->44->44-> ,Dst:44
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 17, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+30->29, 29->28, 28->27, 27->46, 46->1, 1->9, 9->16, 16->27, 27->28, 28->29, 29->30, 30->31, 
+Nodes of this service chain are: Src: 30, 27->1->9-> ,Dst:31
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 17, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+29->28, 28->27, 27->37, 37->46, 
+Nodes of this service chain are: Src: 29, 27->37-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+39->40, 
+Nodes of this service chain are: Src: 39, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+24->23, 
+Nodes of this service chain are: Src: 24, 23->23->23-> ,Dst:23
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->37, 37->27, 27->46, 46->9, 9->46, 46->45, 45->44, 
+Nodes of this service chain are: Src: 45, 37->27->9->44->44-> ,Dst:44
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 1->9, 
+Nodes of this service chain are: Src: 17, 16->1->9->9->9-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->37, 37->27, 27->46, 46->1, 
+Nodes of this service chain are: Src: 45, 37->27->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+32->33, 33->34, 34->35, 35->36, 36->37, 37->46, 46->1, 
+Nodes of this service chain are: Src: 32, 34->34->34->34->34-> ,Dst:34
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+10->9, 9->1, 
+Nodes of this service chain are: Src: 10, 9->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+35->34, 
+Nodes of this service chain are: Src: 35, 34->34->34->34->34-> ,Dst:34
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+20->21, 21->22, 22->23, 23->24, 24->25, 25->26, 26->27, 27->46, 46->9, 9->46, 46->45, 45->44, 44->45, 45->46, 46->1, 1->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 20, 23->27->9->44->1-> ,Dst:19
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:23 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+36->37, 37->27, 
+Nodes of this service chain are: Src: 36, 37->27->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+47->46, 46->37, 37->27, 27->46, 46->1, 
+Nodes of this service chain are: Src: 47, 37->27->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+8->9, 9->16, 16->1, 
+Nodes of this service chain are: Src: 8, 16->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+22->23, 23->24, 24->25, 25->26, 26->27, 27->46, 
+Nodes of this service chain are: Src: 22, 23->27-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+35->34, 34->35, 35->36, 36->37, 
+Nodes of this service chain are: Src: 35, 34->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+14->15, 15->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 14, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+10->9, 9->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 10, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+47->46, 46->37, 37->27, 27->46, 46->1, 
+Nodes of this service chain are: Src: 47, 37->27->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+7->8, 8->9, 9->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 7, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+10->9, 9->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 10, 9->9->9->9->9-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+20->21, 21->22, 22->23, 
+Nodes of this service chain are: Src: 20, 23->23->23-> ,Dst:23
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+26->27, 27->37, 
+Nodes of this service chain are: Src: 26, 27->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+35->34, 34->35, 35->36, 36->37, 37->46, 
+Nodes of this service chain are: Src: 35, 34->37-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+29->28, 28->27, 27->37, 37->46, 
+Nodes of this service chain are: Src: 29, 27->37-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+48->47, 47->46, 46->37, 37->27, 27->46, 46->1, 1->51, 51->50, 50->49, 
+Nodes of this service chain are: Src: 48, 37->27->1-> ,Dst:49
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+36->37, 
+Nodes of this service chain are: Src: 36, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+15->16, 16->1, 
+Nodes of this service chain are: Src: 15, 16->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+30->29, 29->28, 28->27, 27->37, 
+Nodes of this service chain are: Src: 30, 27->27->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+47->46, 46->37, 37->27, 27->46, 46->1, 
+Nodes of this service chain are: Src: 47, 37->27->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+12->11, 11->10, 10->9, 9->1, 1->46, 46->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 12, 9->1->37-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+14->15, 15->16, 16->9, 9->46, 46->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 14, 16->9->37-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+43->42, 42->41, 41->40, 
+Nodes of this service chain are: Src: 43, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->37, 37->27, 27->46, 46->1, 
+Nodes of this service chain are: Src: 45, 37->27->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+41->40, 40->39, 39->38, 38->37, 37->27, 27->46, 46->9, 9->1, 1->46, 46->45, 45->44, 
+Nodes of this service chain are: Src: 41, 40->37->27->9->1-> ,Dst:44
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+24->23, 23->24, 24->25, 25->26, 26->27, 27->46, 
+Nodes of this service chain are: Src: 24, 23->27-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+8->9, 9->1, 
+Nodes of this service chain are: Src: 8, 9->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+5->6, 6->7, 7->8, 8->9, 9->1, 
+Nodes of this service chain are: Src: 5, 6->6->6->6->6-> ,Dst:6
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+29->28, 28->27, 
+Nodes of this service chain are: Src: 29, 27->27->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+2->1, 
+Nodes of this service chain are: Src: 2, 1->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+26->27, 27->37, 
+Nodes of this service chain are: Src: 26, 27->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+14->15, 15->16, 16->9, 9->46, 46->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 14, 16->9->37-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->1, 
+Nodes of this service chain are: Src: 45, 1->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+2->1, 1->9, 
+Nodes of this service chain are: Src: 2, 1->9->9->9->9-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->1, 1->9, 9->16, 16->27, 27->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->38, 38->39, 39->40, 40->41, 41->42, 42->43, 43->44, 
+Nodes of this service chain are: Src: 45, 1->9->27->34->40-> ,Dst:44
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+36->37, 
+Nodes of this service chain are: Src: 36, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+39->40, 
+Nodes of this service chain are: Src: 39, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+30->29, 29->28, 28->27, 
+Nodes of this service chain are: Src: 30, 27->27->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+5->4, 
+Nodes of this service chain are: Src: 5, 4->4->4-> ,Dst:4
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:24 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+32->33, 33->34, 
+Nodes of this service chain are: Src: 32, 34->34->34->34->34-> ,Dst:34
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+47->46, 46->1, 1->46, 46->37, 37->27, 27->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->38, 38->39, 39->40, 40->39, 39->38, 38->37, 37->46, 46->9, 
+Nodes of this service chain are: Src: 47, 1->37->27->34->40-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+39->40, 40->39, 39->38, 38->37, 37->46, 
+Nodes of this service chain are: Src: 39, 40->37-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+7->8, 8->9, 9->1, 
+Nodes of this service chain are: Src: 7, 1->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+36->37, 
+Nodes of this service chain are: Src: 36, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+39->40, 40->39, 39->38, 38->37, 37->27, 
+Nodes of this service chain are: Src: 39, 40->37->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+26->27, 27->37, 37->46, 
+Nodes of this service chain are: Src: 26, 27->37-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->37, 
+Nodes of this service chain are: Src: 45, 46->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+15->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 15, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+26->27, 27->46, 46->37, 
+Nodes of this service chain are: Src: 26, 27->46->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+5->4, 4->3, 3->2, 2->1, 1->46, 
+Nodes of this service chain are: Src: 5, 1->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+12->11, 11->10, 10->9, 9->1, 1->46, 46->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 12, 1->37->27->16->13-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+8->9, 9->1, 1->2, 2->3, 3->4, 
+Nodes of this service chain are: Src: 8, 9->9->9->9->9-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+5->4, 4->3, 3->2, 2->1, 1->46, 
+Nodes of this service chain are: Src: 5, 4->4->4-> ,Dst:4
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+36->37, 
+Nodes of this service chain are: Src: 36, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+41->40, 40->39, 39->38, 38->37, 37->27, 27->16, 16->1, 1->46, 46->45, 45->44, 
+Nodes of this service chain are: Src: 41, 40->37->27->16->1-> ,Dst:44
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+50->51, 51->1, 1->46, 46->37, 37->38, 38->39, 39->40, 40->39, 39->38, 38->37, 37->46, 46->47, 47->48, 48->49, 
+Nodes of this service chain are: Src: 50, 1->46->40-> ,Dst:49
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+7->8, 8->9, 9->1, 
+Nodes of this service chain are: Src: 7, 9->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+7->8, 8->9, 9->1, 
+Nodes of this service chain are: Src: 7, 9->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+20->21, 21->22, 22->23, 23->24, 24->25, 25->26, 26->27, 27->46, 46->9, 9->16, 16->15, 15->14, 14->13, 13->14, 14->15, 15->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 20, 23->27->9->16->13-> ,Dst:19
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->1, 1->9, 9->16, 16->27, 27->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->38, 38->39, 39->40, 40->41, 41->42, 42->43, 43->44, 
+Nodes of this service chain are: Src: 45, 1->9->27->34->40-> ,Dst:44
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+20->21, 21->22, 22->23, 
+Nodes of this service chain are: Src: 20, 23->23->23-> ,Dst:23
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+26->27, 
+Nodes of this service chain are: Src: 26, 27->27->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+36->37, 
+Nodes of this service chain are: Src: 36, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+26->27, 27->37, 37->46, 
+Nodes of this service chain are: Src: 26, 27->37-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+15->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 15, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+41->40, 
+Nodes of this service chain are: Src: 41, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+45->46, 46->1, 
+Nodes of this service chain are: Src: 45, 1->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+26->27, 27->37, 
+Nodes of this service chain are: Src: 26, 27->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+7->8, 8->9, 9->46, 46->37, 37->27, 27->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->46, 46->1, 1->2, 2->3, 3->4, 4->5, 5->6, 
+Nodes of this service chain are: Src: 7, 9->37->27->34->4-> ,Dst:6
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+14->15, 15->16, 16->9, 9->46, 46->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 14, 16->9->34->34->13-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+15->16, 16->1, 
+Nodes of this service chain are: Src: 15, 16->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+7->8, 8->9, 9->1, 
+Nodes of this service chain are: Src: 7, 9->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+48->47, 47->46, 46->1, 1->46, 46->37, 37->27, 27->46, 46->47, 47->48, 48->49, 
+Nodes of this service chain are: Src: 48, 1->37->27-> ,Dst:49
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:25 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+29->28, 28->27, 27->37, 37->46, 
+Nodes of this service chain are: Src: 29, 27->37-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+18->17, 17->16, 16->27, 27->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->27, 27->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 18, 16->37->34->19->19-> ,Dst:19
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+47->46, 46->1, 1->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 47, 46->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+14->15, 15->16, 16->1, 1->46, 46->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 14, 16->46->37-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+43->42, 42->41, 41->40, 
+Nodes of this service chain are: Src: 43, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+47->46, 46->1, 
+Nodes of this service chain are: Src: 47, 46->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 17, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+18->17, 17->16, 16->1, 1->46, 46->37, 37->36, 36->35, 35->34, 34->35, 35->36, 36->37, 37->27, 27->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 18, 16->46->34->19->19-> ,Dst:19
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+36->37, 
+Nodes of this service chain are: Src: 36, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+15->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 15, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+41->40, 40->39, 39->38, 38->37, 37->27, 27->16, 16->1, 1->46, 46->45, 45->44, 
+Nodes of this service chain are: Src: 41, 40->37->27->16->1-> ,Dst:44
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+39->40, 40->39, 39->38, 38->37, 37->27, 
+Nodes of this service chain are: Src: 39, 40->37->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+10->9, 9->1, 
+Nodes of this service chain are: Src: 10, 1->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+41->40, 
+Nodes of this service chain are: Src: 41, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+41->40, 
+Nodes of this service chain are: Src: 41, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+45->46, 
+Nodes of this service chain are: Src: 45, 46->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+12->11, 11->10, 10->9, 9->1, 1->46, 46->37, 37->27, 27->16, 16->17, 17->18, 18->19, 19->18, 18->17, 17->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 12, 1->37->27->16->19-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+10->9, 9->1, 1->46, 
+Nodes of this service chain are: Src: 10, 1->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+50->51, 51->1, 1->46, 46->47, 47->48, 48->49, 
+Nodes of this service chain are: Src: 50, 1->46->49->49->49-> ,Dst:49
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+35->36, 36->37, 37->46, 
+Nodes of this service chain are: Src: 35, 37->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+39->40, 
+Nodes of this service chain are: Src: 39, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+10->9, 9->1, 
+Nodes of this service chain are: Src: 10, 1->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+8->9, 9->1, 
+Nodes of this service chain are: Src: 8, 1->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+5->4, 4->3, 3->2, 2->1, 1->46, 
+Nodes of this service chain are: Src: 5, 1->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+22->23, 23->24, 24->25, 25->26, 26->27, 27->46, 46->47, 47->48, 48->49, 49->50, 50->51, 51->1, 1->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 22, 27->46->49->16->19-> ,Dst:19
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+39->40, 40->39, 39->38, 38->37, 37->27, 
+Nodes of this service chain are: Src: 39, 40->37->27->27->27-> ,Dst:27
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+12->11, 11->10, 10->9, 9->1, 1->46, 46->37, 37->27, 27->16, 16->17, 17->18, 18->19, 19->18, 18->17, 17->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 12, 1->37->27->16->19-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+35->36, 36->37, 
+Nodes of this service chain are: Src: 35, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+39->40, 
+Nodes of this service chain are: Src: 39, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+14->15, 15->16, 16->1, 1->46, 46->47, 47->48, 48->49, 49->50, 50->51, 51->1, 1->16, 16->17, 17->18, 18->19, 19->18, 18->17, 17->16, 16->27, 27->37, 37->27, 27->16, 16->15, 15->14, 14->13, 
+Nodes of this service chain are: Src: 14, 16->46->49->19->37-> ,Dst:13
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 17, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+39->40, 
+Nodes of this service chain are: Src: 39, 40->40->40-> ,Dst:40
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+36->37, 
+Nodes of this service chain are: Src: 36, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+24->25, 25->26, 26->27, 27->46, 
+Nodes of this service chain are: Src: 24, 27->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+35->36, 36->37, 
+Nodes of this service chain are: Src: 35, 37->37->37-> ,Dst:37
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+22->23, 23->24, 24->25, 25->26, 26->27, 27->37, 
+Nodes of this service chain are: Src: 22, 23->23->23-> ,Dst:23
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:MIoT
+The links on the Path of provisioned ServiceChain is:
+2->1, 
+Nodes of this service chain are: Src: 2, 1->1->1-> ,Dst:1
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+15->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 15, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+5->4, 4->3, 3->2, 2->1, 1->46, 46->47, 47->48, 48->49, 49->50, 50->51, 51->1, 1->16, 16->17, 17->18, 18->19, 19->18, 18->17, 17->16, 16->9, 9->8, 8->7, 7->6, 
+Nodes of this service chain are: Src: 5, 1->46->49->16->19-> ,Dst:6
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+7->8, 8->9, 9->1, 1->46, 46->47, 47->48, 48->49, 49->50, 50->51, 51->1, 1->16, 16->17, 17->18, 18->19, 19->18, 18->17, 17->16, 16->9, 9->8, 8->7, 7->6, 
+Nodes of this service chain are: Src: 7, 1->46->49->16->19-> ,Dst:6
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+8->9, 9->46, 
+Nodes of this service chain are: Src: 8, 9->9->9->9->9-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+50->51, 51->1, 1->46, 46->47, 47->48, 48->49, 
+Nodes of this service chain are: Src: 50, 1->46->49->49->49-> ,Dst:49
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 6
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+14->15, 15->16, 16->1, 1->46, 
+Nodes of this service chain are: Src: 14, 16->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:26 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+12->11, 11->10, 10->9, 9->1, 1->46, 
+Nodes of this service chain are: Src: 12, 9->1-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:27 AM*** 
+
+The number of users for this SC is 10
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+17->16, 16->1, 1->9, 
+Nodes of this service chain are: Src: 17, 16->1->9->9->9-> ,Dst:9
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:27 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+50->51, 51->1, 1->46, 46->47, 47->48, 48->49, 
+Nodes of this service chain are: Src: 50, 1->46->49->49->49-> ,Dst:49
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:27 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+22->23, 23->24, 24->25, 25->26, 26->27, 27->46, 46->9, 9->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 22, 27->46->9->16->19-> ,Dst:19
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:30-07-2020 11:35:27 AM*** 
+
+The number of users for this SC is 8
+The connection is: 
+The location of blocking is: NULL
+Service Chain:AugmentedReality
+The links on the Path of provisioned ServiceChain is:
+18->17, 17->16, 16->1, 1->46, 46->47, 47->48, 48->49, 49->50, 50->51, 51->1, 1->16, 16->17, 17->18, 18->19, 
+Nodes of this service chain are: Src: 18, 16->46->49->19->19-> ,Dst:19
+
+ Not grouped

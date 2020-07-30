@@ -1,0 +1,68 @@
+
+
+NumberOfWavelengths = 8; //LA:changed to support lighter version
+ChannelCapacity = 128; //128*BWDGRANULARITY = 768 //SHOULD BE NO USED ANYMORE
+Num of trees = 40; //-B: added by me!!!!!!!!!!!!
+Num of rings = 15; //-B: added by me!!!!!!!!!!!!
+NumberOfTx = 1;
+NumberOfRx = 1;
+NumberOfDataCenter = 0;
+TxScale = 1.0;	// NumberOfTx = Nodal Degree * TxScale
+NumberOfOXCNodes = 10;
+NumberOfUniFibers = 30;
+
+// Format: 
+//	<OXCNodeId, WConvertible(0,F|1,P|2,N), GroomingCap(0,F|1,P|2,N), Tx, Rx, NodeFlag(-1,CO|1,M|2,F|3,FM), 
+//	BBU_Hotel(0,NO|1,Hotel), CellFlag(0,MC|1,SC), Area(0,Off|1,Res)>
+//	Tx (Rx) is valid only if NumberOfTx (NumberOfRx) is 0
+//      NodeFlag is 1, 2 or 3, -1 for coreCO
+OXCNodes = [
+	<1,  0, 0, 1, 1, 1, 0, 0, 0>,
+	<2,  0, 0, 1, 1, 1, 1, 0, 0>,//NFV-node
+	<3,  0, 0, 1, 1, 1, 0, 0, 0>,
+	<4,  0, 0, 1, 1, 1, 0, 0, 0>, 
+	<5,  0, 0, 1, 1, -1, 1, 0, 0>, //NFV-node 
+	<6,  0, 0, 1, 1, 1, 0, 0, 0>,
+	<7,  0, 0, 1, 1, 1, 1, 0, 0>, //NFV-node
+	<8,  0, 0, 1, 1, 1, 0, 0, 0>,
+	<9,  0, 0, 1, 1, 1, 0, 0, 0>,
+	<10, 0, 0, 1, 1, 1, 1, 0, 0>, //NFV-node
+	
+];
+
+// Format: <FiberId, Src, Dst, # of wavelengths, Cost, Latency(ms),tree>
+//	"# of wavelengths" is valid only if NumberOfWavelength is 0 (!!!!!!!!!!!!!!!)
+UniFibers = [
+	<0, 1, 2, 8, 1, 10, 1>, 
+	<1, 2, 1, 8, 1, 10, 1>, 
+	<2, 2, 3, 8, 1, 10, 0>, 
+	<3, 3, 2, 8, 1, 10, 0>, 
+	<4, 1, 6, 8, 1, 10, 0>, 
+	<5, 6, 1, 8, 1, 10, 0>, 
+	<6, 2, 5, 8, 1, 10, 1>, 
+	<7, 5, 2, 8, 1, 10, 1>, 
+	<8, 3, 4, 8, 1, 10, 0>, 
+	<9, 4, 3, 8, 1, 10, 0>, 
+	<10, 5, 6, 8, 1, 10, 0>, 
+	<11, 6, 5, 8, 1, 10, 0>, 
+	<12, 5, 4, 8, 1, 10, 0>, 
+	<13, 4, 5, 8, 1, 10, 0>, 
+	<14, 6, 7, 8, 1, 10, 1>, 
+	<15, 7, 6, 8, 1, 10, 1>, 
+	<16, 7, 5, 8, 1, 10, 1>, 
+	<17, 5, 7, 8, 1, 10, 1>, 
+	<18, 5, 8, 8, 1, 10, 0>, 
+	<19, 8, 5, 8, 1, 10, 0>, 
+	<20, 5, 10, 8, 1, 10, 1>, 
+	<21, 10, 5, 8, 1, 10, 1>, 
+	<22, 4, 10, 8, 1, 10, 1>, 
+	<23, 10, 4, 8, 1, 10, 1>, 
+	<24, 8, 10, 8, 1, 10, 0>, 
+	<25, 10, 8, 8, 1, 10, 0>, 
+	<26, 8, 9, 8, 1, 10, 0>, 
+	<27, 9, 8, 8, 1, 10, 0>, 
+	<28, 7, 9, 8, 1, 10, 0>, 
+	<29, 9, 7, 8, 1, 10, 0>, 
+];
+
+
