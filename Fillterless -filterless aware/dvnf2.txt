@@ -1,0 +1,46 @@
+//generated with matlab script 'script_for_plotting_multistageRingSpur' in folder 'Evolved'
+//original file 'instance4_N80_graph_30trees_15rings_14x14km.txt' + 3 bidirectional links: id 164 to 169
+NumberOfWavelengths = 8;
+ChannelCapacity = 128; //128*BWDGRANULARITY = 768 //SHOULD BE NO USED ANYMORE
+Num of trees = 40; //-B: added by me!!!!!!!!!!!!
+Num of rings = 15; //-B: added by me!!!!!!!!!!!!
+NumberOfTx = 1;
+NumberOfRx = 1;
+NumberOfDataCenter = 0;
+TxScale = 1.0;	// NumberOfTx = Nodal Degree * TxScale
+NumberOfOXCNodes = 10;
+NumberOfUniFibers = 26;
+
+// Format: 
+//	<OXCNodeId, WConvertible(0,F|1,P|2,N), GroomingCap(0,F|1,P|2,N), Tx, Rx, NodeFlag(-1,CO|1,M|2,F|3,FM), 
+//	BBU_Hotel(0,NO|1,Hotel), CellFlag(0,MC|1,SC), Area(0,Off|1,Res)>
+//	Tx (Rx) is valid only if NumberOfTx (NumberOfRx) is 0
+//      NodeFlag is 1, 2 or 3, -1 for coreCO
+OXCNodes = [
+	
+	<1,  0, 0, 1, 1, 1, 1, 0, 0>, //BBU-Hotel
+	<2,  0, 0, 1, 1, 1, 0, 0, 0>, //BBU-Hotel 
+	<3, 0, 0, 1, 1, 1, 0, 0, 0>, //BBU-Hotel
+	<4, 0, 0, 1, 1, 1, 0, 0, 0>, //BBU-Hotel 
+	<5, 0, 0, 1, 1, 1, 0, 0, 0>, //BBU-Hotel
+	<6, 0, 0, 1, 1, 1, 1, 0, 0>, //BBU-Hotel 
+	<7, 0, 0, 1, 1, 1, 0, 0, 0>, //BBU-Hotel
+	<8, 0, 0, 1, 1, 1, 1, 0, 0>, //BBU-Hotel
+	<9, 0, 0, 1, 1, 1, 0, 0, 0>, //BBU-Hotel
+	<10, 0, 0, 1, 1, -1, 1, 0, 0>, //core CO //BBU-Hotel
+
+	
+];
+
+// Format: <FiberId, Src, Dst, # of wavelengths, Cost, Latency(ms)>
+//	"# of wavelengths" is valid only if NumberOfWavelength is 0 (!!!!!!!!!!!!!!!)
+UniFibers = [
+	<0, 6, 1, 40, 1, 2.7602>, <1, 1, 6, 40, 1, 2.7602>, <2, 1, 5, 40, 1, 2.7602>, <3, 5, 1, 40, 1, 2.7602>,
+	<4, 1, 10, 40, 1, 3.1329>, <5, 10, 1, 40, 1, 3.1329>, <6, 8, 1, 40, 1, 3.5912>, <7, 1, 8, 40, 1, 3.5912>,
+	<8, 9, 5, 40, 1, 2.0146>, <9, 5, 9, 40, 1, 2.0146>, <10, 10, 8, 40, 1, 3.1529>, <11, 8, 10, 40, 1, 3.1529>,
+	<12, 7, 2, 40, 1, 1.9754>, <13, 2, 7, 40, 1, 1.9754>, <14, 6, 2, 40, 1, 2.6405>, <15, 2, 6, 40, 1, 2.6405>, 
+	<16, 3, 4, 40, 1, 5.2245>, <17, 4, 3, 40, 1, 5.2245>, <18, 3, 8, 40, 1, 5.272>, <19, 8, 3, 40, 1, 5.272>, 
+	<20, 4, 8, 40, 1, 5.2245>, <21, 8, 4, 40, 1, 5.2245>, <22, 7, 6, 40, 1, 3.2245>, <23, 6, 7, 40, 1, 3.2245>, 
+	<24, 8, 6, 40, 1, 7.5245>, <25, 6, 8, 40, 1, 7.5245>,  	
+	
+];

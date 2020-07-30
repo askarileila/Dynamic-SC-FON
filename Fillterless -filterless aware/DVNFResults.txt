@@ -1,0 +1,2904 @@
+_______________________________________________________________________________
+ ***Date and Time:19-04-2019 04:06:32*** 
+
+INPUT DATA:
+
+Network topology: ItalyFilterless.txt
+Avg arrival rate: 90
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 90
+Running phase duration: 10000
+Max tot num of connections to be simulated: 1000000
+
+Number of provisioned connections: 26103
+Number of blocked connections: 973898
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.973897
+
+BWD of provisioned connections : 14340200
+BWD of blocked connections : 535799800
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 539.655
+Real avg arrival rate PER SECOND, PER NODE: 53.9655
+Confidence Percentage: 0.95
+ Average number of active NFV-nodes: 2.77882
+ Average number of active NFV-nodes:(new simulation time) 2.85148
+ Total number of activated VNFs for 1e+006 connection is : 11
+ carried load [BH BWD * time] = 26439
+Simulation Time: 1853.04
+
+ Number of NFV-nodes: 2
+ Channel Capacity: 40000 Mbps
+ Total hop count: 0
+
+ Reprovisioning Penalty (number of connections moved): 0
+
+_______________________________________________________________________________
+ ***Date and Time:19-04-2019 08:52:59*** 
+
+INPUT DATA:
+
+Network topology: ItalyFilterless.txt
+Avg arrival rate: 80
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 80
+Running phase duration: 10000
+Max tot num of connections to be simulated: 1000000
+
+Number of provisioned connections: 29708
+Number of blocked connections: 970293
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.970292
+
+BWD of provisioned connections : 16233200
+BWD of blocked connections : 533725300
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 480.022
+Real avg arrival rate PER SECOND, PER NODE: 48.0022
+Confidence Percentage: 0.95
+ Average number of active NFV-nodes: 2.74696
+ Average number of active NFV-nodes:(new simulation time) 2.82901
+ Total number of activated VNFs for 1e+006 connection is : 13
+ carried load [BH BWD * time] = 29388.9
+Simulation Time: 2083.24
+
+ Number of NFV-nodes: 3
+ Channel Capacity: 40000 Mbps
+ Total hop count: 0
+
+ Reprovisioning Penalty (number of connections moved): 0
+
+_______________________________________________________________________________
+ ***Date and Time:20-04-2019 09:36:10*** 
+
+INPUT DATA:
+
+Network topology: ItalyFilterless.txt
+Avg arrival rate: 30
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 30
+Running phase duration: 10000
+Max tot num of connections to be simulated: 1000000
+
+Number of provisioned connections: 72387
+Number of blocked connections: 927614
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.927613
+
+BWD of provisioned connections : 39759300
+BWD of blocked connections : 509995500
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 180.009
+Real avg arrival rate PER SECOND, PER NODE: 18.0009
+Confidence Percentage: 0.95
+ Average number of active NFV-nodes: 2.50067
+ Average number of active NFV-nodes:(new simulation time) 2.68042
+ Total number of activated VNFs for 1e+006 connection is : 8
+ carried load [BH BWD * time] = 72344.5
+Simulation Time: 5555.29
+
+ Number of NFV-nodes: 2
+ Channel Capacity: 40000 Mbps
+ Total hop count: 0
+
+ Reprovisioning Penalty (number of connections moved): 0
+
+_______________________________________________________________________________
+ ***Date and Time:25-04-2019 09:16:42*** 
+
+INPUT DATA:
+
+Network topology: ItalyFilterless.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 1000000
+
+Number of provisioned connections: 191368
+Number of blocked connections: 808633
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.808632
+
+BWD of provisioned connections : 105357600
+BWD of blocked connections : 444749900
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 59.9872
+Real avg arrival rate PER SECOND, PER NODE: 5.99872
+Confidence Percentage: 0.95
+ Average number of active NFV-nodes: 2.07031
+ Average number of active NFV-nodes:(new simulation time) 2.46488
+ Total number of activated VNFs for 1e+006 connection is : 13
+ carried load [BH BWD * time] = 191965
+Simulation Time: 16670.2
+
+ Number of NFV-nodes: 3
+ Channel Capacity: 40000 Mbps
+ Total hop count: 0
+
+ Reprovisioning Penalty (number of connections moved): 0
+
+_______________________________________________________________________________
+ ***Date and Time:27-05-2020 10:02:32*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 40
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 40
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 28127
+Number of blocked connections: 471874
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.943746
+
+BWD of provisioned connections : 15527500
+BWD of blocked connections : 259770900
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1401.85
+Real avg arrival rate PER SECOND, PER NODE: 27.4872
+Confidence Percentage: 0.95
+ Average number of active NFV-nodes: 2.85052
+ Average number of active NFV-nodes:(new simulation time) 3.0095
+ Total number of activated VNFs for 500001 connection is : 6
+ carried load [BH BWD * time] = 28305.5
+Simulation Time: 356.674
+
+ Number of NFV-nodes: 3
+ Channel Capacity: 40000 Mbps
+ Total hop count: 0
+
+ Reprovisioning Penalty (number of connections moved): 0
+
+_______________________________________________________________________________
+ ***Date and Time:28-05-2020 09:38:34*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 40
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 40
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 211270
+Number of blocked connections: 288731
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.577461
+
+BWD of provisioned connections : 116175200
+BWD of blocked connections : 158939100
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1399.56
+Real avg arrival rate PER SECOND, PER NODE: 27.4424
+Confidence Percentage: 0.95
+ Average number of active NFV-nodes: 11.254
+ Average number of active NFV-nodes:(new simulation time) 15.999
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 210132
+Simulation Time: 357.256
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ Total hop count: 0
+
+ Reprovisioning Penalty (number of connections moved): 0
+
+_______________________________________________________________________________
+ ***Date and Time:29-05-2020 02:19:22*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 463687
+Number of blocked connections: 36314
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0726279
+
+BWD of provisioned connections : 255237600
+BWD of blocked connections : 19828000
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 349.77
+Real avg arrival rate PER SECOND, PER NODE: 6.85823
+Confidence Percentage: 0.95
+ Average number of active NFV-nodes: 8.31655
+ Average number of active NFV-nodes:(new simulation time) 15.9888
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 463810
+Simulation Time: 1429.51
+
+NumberOfWavelengths = 128;
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ Total hop count: 0
+
+ Reprovisioning Penalty (number of connections moved): 0
+
+_______________________________________________________________________________
+ ***Date and Time:31-05-2020 02:24:41*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 462357
+Number of blocked connections: 37644
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0752878
+
+BWD of provisioned connections : 254115600
+BWD of blocked connections : 20748300
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 350.627
+Real avg arrival rate PER SECOND, PER NODE: 6.87504
+Confidence Percentage: 0.95
+ Average number of active NFV-nodes: 8.3029
+ Average number of active NFV-nodes:(new simulation time) 15.9895
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 461894
+Simulation Time: 1426.02
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ Total hop count: 0
+
+ Reprovisioning Penalty (number of connections moved): 0
+
+_______________________________________________________________________________
+ ***Date and Time:31-05-2020 08:55:28 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 463074
+Number of blocked connections: 36927
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0738539
+
+BWD of provisioned connections : 254552600
+BWD of blocked connections : 20303700
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 350.297
+Real avg arrival rate PER SECOND, PER NODE: 6.86857
+
+TOTAL NUMBER OF Provisioned VNFS : 1602109Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 11865.4
+ Average number of active NFV-nodes: 8.31284
+ Average number of active NFV-nodes:(new simulation time) 15.9894
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 3.51036
+ Average number of VNFs activated:(new simulation time) 6.75204
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for Primary path of SC: 1479.97
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 462432
+Simulation Time: 1427.36
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 463074 Percentage: 0.926146
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 9 CPU capacity is: 508.383
+For node 27 CPU capacity is: 509.228
+For node 31 CPU capacity is: 511.318
+For node 44 CPU capacity is: 509.142
+For node 23 CPU capacity is: 511.106
+For node 40 CPU capacity is: 510.66
+For node 1 CPU capacity is: 510.85
+For node 37 CPU capacity is: 509.93
+For node 19 CPU capacity is: 510.833
+For node 34 CPU capacity is: 509.954
+For node 6 CPU capacity is: 510.151
+For node 16 CPU capacity is: 510.328
+For node 13 CPU capacity is: 510.043
+For node 49 CPU capacity is: 510.631
+For node 4 CPU capacity is: 511.537
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:01-06-2020 02:13:36 AM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 463458
+Number of blocked connections: 36543
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0730859
+
+BWD of provisioned connections : 254556000
+BWD of blocked connections : 20163300
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 350.116
+Real avg arrival rate PER SECOND, PER NODE: 6.86503
+
+TOTAL NUMBER OF Provisioned VNFS : 1602063Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 11863.9
+ Average number of active NFV-nodes: 8.30747
+ Average number of active NFV-nodes:(new simulation time) 15.9899
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 3.55015
+ Average number of VNFs activated:(new simulation time) 6.83318
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 1.99539
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 623.5
+Simulation Time: 1428.1
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 463458 Percentage: 0.926914
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 1 CPU capacity is: 508.976
+For node 23 CPU capacity is: 511.272
+For node 44 CPU capacity is: 509.981
+For node 31 CPU capacity is: 511.39
+For node 19 CPU capacity is: 509.831
+For node 27 CPU capacity is: 508.705
+For node 40 CPU capacity is: 511.086
+For node 34 CPU capacity is: 510.276
+For node 13 CPU capacity is: 511.287
+For node 37 CPU capacity is: 509.813
+For node 4 CPU capacity is: 511.7
+For node 6 CPU capacity is: 510.742
+For node 16 CPU capacity is: 509.586
+For node 49 CPU capacity is: 510.382
+For node 9 CPU capacity is: 508.82
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:01-06-2020 02:08:21 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 20
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 20
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 348167
+Number of blocked connections: 151834
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.303667
+
+BWD of provisioned connections : 191448700
+BWD of blocked connections : 83447000
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 699.773
+Real avg arrival rate PER SECOND, PER NODE: 13.721
+
+TOTAL NUMBER OF Provisioned VNFS : 1340609Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 6744.42
+ Average number of active NFV-nodes: 9.43912
+ Average number of active NFV-nodes:(new simulation time) 15.9984
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 1.80106
+ Average number of VNFs activated:(new simulation time) 3.05262
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 1.36206
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 824.542
+Simulation Time: 714.518
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 348167 Percentage: 0.696333
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 19 CPU capacity is: 509.69
+For node 1 CPU capacity is: 507.988
+For node 37 CPU capacity is: 508.445
+For node 23 CPU capacity is: 510.743
+For node 9 CPU capacity is: 508.418
+For node 44 CPU capacity is: 506.574
+For node 40 CPU capacity is: 510.961
+For node 31 CPU capacity is: 510.687
+For node 6 CPU capacity is: 509.598
+For node 34 CPU capacity is: 509.831
+For node 13 CPU capacity is: 508.656
+For node 27 CPU capacity is: 506.479
+For node 4 CPU capacity is: 511.061
+For node 49 CPU capacity is: 508.026
+For node 16 CPU capacity is: 507.363
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:01-06-2020 08:00:26 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 15
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 15
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 402420
+Number of blocked connections: 97581
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.195162
+
+BWD of provisioned connections : 221122400
+BWD of blocked connections : 53628800
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 525.614
+Real avg arrival rate PER SECOND, PER NODE: 10.3062
+
+TOTAL NUMBER OF Provisioned VNFS : 1474555Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 8431.64
+ Average number of active NFV-nodes: 8.86356
+ Average number of active NFV-nodes:(new simulation time) 15.9975
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 2.34117
+ Average number of VNFs activated:(new simulation time) 4.22548
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 1.64369
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 762.482
+Simulation Time: 951.27
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 402420 Percentage: 0.804838
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 6 CPU capacity is: 509.952
+For node 34 CPU capacity is: 510.21
+For node 23 CPU capacity is: 511.08
+For node 27 CPU capacity is: 508.859
+For node 9 CPU capacity is: 508.09
+For node 40 CPU capacity is: 511.099
+For node 37 CPU capacity is: 508.397
+For node 31 CPU capacity is: 511.199
+For node 44 CPU capacity is: 508.594
+For node 19 CPU capacity is: 509.6
+For node 1 CPU capacity is: 507.712
+For node 49 CPU capacity is: 510.031
+For node 13 CPU capacity is: 509.874
+For node 16 CPU capacity is: 509.663
+For node 4 CPU capacity is: 511.086
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:02-06-2020 03:09:09 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 462769
+Number of blocked connections: 37232
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0744639
+
+BWD of provisioned connections : 254846700
+BWD of blocked connections : 20485500
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 350.062
+Real avg arrival rate PER SECOND, PER NODE: 6.86397
+
+TOTAL NUMBER OF Provisioned VNFS : 1600234Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 11872.5
+ Average number of active NFV-nodes: 8.31219
+ Average number of active NFV-nodes:(new simulation time) 15.989
+ Average number of active WLs:(new simulation time) 9756.85
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 3.53707
+ Average number of VNFs activated:(new simulation time) 6.80378
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 1.9932
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 621.844
+Simulation Time: 1428.32
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 462769 Percentage: 0.925536
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 23 CPU capacity is: 510.925
+For node 44 CPU capacity is: 510.072
+For node 34 CPU capacity is: 509.966
+For node 31 CPU capacity is: 511.283
+For node 27 CPU capacity is: 509.707
+For node 19 CPU capacity is: 511.165
+For node 40 CPU capacity is: 510.761
+For node 37 CPU capacity is: 508.556
+For node 13 CPU capacity is: 510.131
+For node 6 CPU capacity is: 510.061
+For node 4 CPU capacity is: 511.612
+For node 49 CPU capacity is: 510.737
+For node 9 CPU capacity is: 509.674
+For node 16 CPU capacity is: 511.112
+For node 46 CPU capacity is: 2.14748e+009
+For node 1 CPU capacity is: 508.778
+
+_______________________________________________________________________________
+ ***Date and Time:02-06-2020 08:38:48 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 11
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 11
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 450390
+Number of blocked connections: 49611
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0992218
+
+BWD of provisioned connections : 247959000
+BWD of blocked connections : 27264800
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 385.765
+Real avg arrival rate PER SECOND, PER NODE: 7.56401
+
+TOTAL NUMBER OF Provisioned VNFS : 1577371Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 10918.2
+ Average number of active NFV-nodes: 8.42369
+ Average number of active NFV-nodes:(new simulation time) 15.993
+ Average number of active WLs:(new simulation time) 10250.9
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 3.16516
+ Average number of VNFs activated:(new simulation time) 6.0093
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 1.91933
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 661.232
+Simulation Time: 1296.13
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 450390 Percentage: 0.900778
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 37 CPU capacity is: 61.1115
+For node 40 CPU capacity is: 63.2613
+For node 23 CPU capacity is: 63.0606
+For node 19 CPU capacity is: 62.2189
+For node 31 CPU capacity is: 63.2647
+For node 27 CPU capacity is: 59.7847
+For node 44 CPU capacity is: 60.3869
+For node 9 CPU capacity is: 59.8589
+For node 1 CPU capacity is: 60.8196
+For node 6 CPU capacity is: 62.5241
+For node 4 CPU capacity is: 63.6745
+For node 34 CPU capacity is: 61.1999
+For node 49 CPU capacity is: 62.1753
+For node 13 CPU capacity is: 62.188
+For node 16 CPU capacity is: 61.8682
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:03-06-2020 01:52:56 AM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 12
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 12
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 438162
+Number of blocked connections: 61839
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.123678
+
+BWD of provisioned connections : 240909200
+BWD of blocked connections : 33986500
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 420.094
+Real avg arrival rate PER SECOND, PER NODE: 8.23714
+
+TOTAL NUMBER OF Provisioned VNFS : 1553549Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 10153.7
+ Average number of active NFV-nodes: 8.53098
+ Average number of active NFV-nodes:(new simulation time) 15.9953
+ Average number of active WLs:(new simulation time) 10631.2
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 2.91137
+ Average number of VNFs activated:(new simulation time) 5.45871
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 1.84205
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 689.864
+Simulation Time: 1190.21
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 438162 Percentage: 0.876322
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 1 CPU capacity is: 61.1436
+For node 27 CPU capacity is: 59.8677
+For node 44 CPU capacity is: 61.7327
+For node 9 CPU capacity is: 59.8444
+For node 6 CPU capacity is: 63.0052
+For node 19 CPU capacity is: 61.8443
+For node 37 CPU capacity is: 61.3802
+For node 31 CPU capacity is: 63.4685
+For node 40 CPU capacity is: 62.9734
+For node 23 CPU capacity is: 62.7191
+For node 4 CPU capacity is: 63.5368
+For node 49 CPU capacity is: 62.4067
+For node 13 CPU capacity is: 61.6065
+For node 34 CPU capacity is: 62.3068
+For node 16 CPU capacity is: 61.6916
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:03-06-2020 05:20:50 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 13
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 13
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 426354
+Number of blocked connections: 73647
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.147294
+
+BWD of provisioned connections : 234454100
+BWD of blocked connections : 40438200
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 454.182
+Real avg arrival rate PER SECOND, PER NODE: 8.90554
+
+TOTAL NUMBER OF Provisioned VNFS : 1528988Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 9526.72
+ Average number of active NFV-nodes: 8.65372
+ Average number of active NFV-nodes:(new simulation time) 15.9951
+ Average number of active WLs:(new simulation time) 10995.1
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 2.69426
+ Average number of VNFs activated:(new simulation time) 4.97994
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 1.77883
+ Total number of activated VNFs for 500001 connection is : 72
+ carried load [BH BWD * time] = 716.442
+Simulation Time: 1100.88
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 426354 Percentage: 0.852706
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 16 CPU capacity is: 61.1373
+For node 44 CPU capacity is: 61.5269
+For node 23 CPU capacity is: 63.168
+For node 40 CPU capacity is: 62.8356
+For node 1 CPU capacity is: 61.2165
+For node 19 CPU capacity is: 61.523
+For node 27 CPU capacity is: 60.8843
+For node 37 CPU capacity is: 60.5176
+For node 34 CPU capacity is: 62.5787
+For node 31 CPU capacity is: 62.5309
+For node 13 CPU capacity is: 60.512
+For node 6 CPU capacity is: 61.9476
+For node 9 CPU capacity is: 61.1391
+For node 49 CPU capacity is: 62.6994
+For node 4 CPU capacity is: 63.3615
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:03-06-2020 08:25:48 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 14
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 14
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 414332
+Number of blocked connections: 85669
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.171338
+
+BWD of provisioned connections : 228081400
+BWD of blocked connections : 47140200
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 489.454
+Real avg arrival rate PER SECOND, PER NODE: 9.59713
+
+TOTAL NUMBER OF Provisioned VNFS : 1502447Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 8944.55
+ Average number of active NFV-nodes: 8.75587
+ Average number of active NFV-nodes:(new simulation time) 15.9975
+ Average number of active WLs:(new simulation time) 11305.6
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 2.50569
+ Average number of VNFs activated:(new simulation time) 4.57804
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 1.70714
+ Total number of activated VNFs for 500001 connection is : 70
+ carried load [BH BWD * time] = 741.288
+Simulation Time: 1021.55
+
+ Number of NFV-nodes: 16
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 414332 Percentage: 0.828662
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 27 CPU capacity is: 59.104
+For node 13 CPU capacity is: 60.8876
+For node 49 CPU capacity is: 62.1754
+For node 1 CPU capacity is: 61.4465
+For node 37 CPU capacity is: 61.3185
+For node 31 CPU capacity is: 62.8839
+For node 34 CPU capacity is: 62.9149
+For node 6 CPU capacity is: 61.3023
+For node 23 CPU capacity is: 63.0248
+For node 44 CPU capacity is: 62.0707
+For node 4 CPU capacity is: 63.2238
+For node 9 CPU capacity is: 60.8775
+For node 40 CPU capacity is: 63.1111
+For node 19 CPU capacity is: 61.4087
+For node 16 CPU capacity is: 61.2497
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:07-06-2020 06:36:21 AM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 14
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 14
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 361458
+Number of blocked connections: 138543
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.277085
+
+BWD of provisioned connections : 198649900
+BWD of blocked connections : 76154700
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 364.44
+Real avg arrival rate PER SECOND, PER NODE: 7.14589
+
+TOTAL NUMBER OF Provisioned VNFS : 1502779Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 9423.59
+ Average number of active NFV-nodes: 6.86866
+ Average number of active NFV-nodes:(new simulation time) 11.8064
+ Average number of active WLs:(new simulation time) 12379.1
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 1.30916
+ Average number of VNFs activated:(new simulation time) 2.25031
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.8125
+ Total number of activated VNFs for 500001 connection is : 40
+ carried load [BH BWD * time] = 451.771
+Simulation Time: 1371.97
+
+ Number of NFV-nodes: 12
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 103141 Percentage: 0.206282
+ Number of connections with VNFs on differnt nodes: 258317 Percentage: 0.516633
+For node 16 CPU capacity is: 63.7948
+For node 1 CPU capacity is: 60.7575
+For node 44 CPU capacity is: 62.6253
+For node 6 CPU capacity is: 63.0546
+For node 46 CPU capacity is: 2.14748e+009
+For node 27 CPU capacity is: 59.9535
+For node 23 CPU capacity is: 63.1328
+For node 37 CPU capacity is: 62.5123
+For node 9 CPU capacity is: 59.0197
+For node 34 CPU capacity is: 62.3456
+For node 49 CPU capacity is: 63.1801
+For node 51 CPU capacity is: 63.6675
+
+_______________________________________________________________________________
+ ***Date and Time:07-06-2020 08:08:51 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 14
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 14
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 465189
+Number of blocked connections: 34812
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0696239
+
+BWD of provisioned connections : 256042000
+BWD of blocked connections : 19071100
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 363.491
+Real avg arrival rate PER SECOND, PER NODE: 7.12727
+
+TOTAL NUMBER OF Provisioned VNFS : 1603542Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 17032.6
+ Average number of active NFV-nodes: 12.3824
+ Average number of active NFV-nodes:(new simulation time) 23.8873
+ Average number of active WLs:(new simulation time) 9894.76
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 8.51176
+ Average number of VNFs activated:(new simulation time) 16.4204
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 1.97326
+ Total number of activated VNFs for 500001 connection is : 104
+ carried load [BH BWD * time] = 651.032
+Simulation Time: 1375.55
+
+ Number of NFV-nodes: 23
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 465189 Percentage: 0.930376
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 31 CPU capacity is: 63.041
+For node 40 CPU capacity is: 63.4867
+For node 13 CPU capacity is: 62.9247
+For node 28 CPU capacity is: 62.3025
+For node 16 CPU capacity is: 61.0991
+For node 6 CPU capacity is: 61.8334
+For node 44 CPU capacity is: 62.867
+For node 23 CPU capacity is: 63.8832
+For node 19 CPU capacity is: 61.7873
+For node 9 CPU capacity is: 61.4303
+For node 42 CPU capacity is: 63.164
+For node 38 CPU capacity is: 63.4401
+For node 11 CPU capacity is: 63.9472
+For node 1 CPU capacity is: 62.783
+For node 34 CPU capacity is: 63.5629
+For node 46 CPU capacity is: 2.14748e+009
+For node 33 CPU capacity is: 63.1883
+For node 27 CPU capacity is: 63.5291
+For node 4 CPU capacity is: 63.5868
+For node 51 CPU capacity is: 63.98
+For node 25 CPU capacity is: 63.2422
+For node 37 CPU capacity is: 62.7711
+For node 49 CPU capacity is: 62.6439
+
+_______________________________________________________________________________
+ ***Date and Time:08-06-2020 10:38:36 AM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 13
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 13
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 473143
+Number of blocked connections: 26858
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0537159
+
+BWD of provisioned connections : 260206900
+BWD of blocked connections : 14797400
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 338.452
+Real avg arrival rate PER SECOND, PER NODE: 6.63632
+
+TOTAL NUMBER OF Provisioned VNFS : 1619041Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 18103.5
+ Average number of active NFV-nodes: 12.2543
+ Average number of active NFV-nodes:(new simulation time) 23.8717
+ Average number of active WLs:(new simulation time) 9525.63
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 9.0736
+ Average number of VNFs activated:(new simulation time) 17.6756
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.03183
+ Total number of activated VNFs for 500001 connection is : 106
+ carried load [BH BWD * time] = 623.42
+Simulation Time: 1477.32
+
+ Number of NFV-nodes: 24
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 473143 Percentage: 0.946284
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 6 CPU capacity is: 62.2871
+For node 31 CPU capacity is: 62.486
+For node 16 CPU capacity is: 61.1644
+For node 49 CPU capacity is: 62.0574
+For node 9 CPU capacity is: 62.1725
+For node 19 CPU capacity is: 61.5266
+For node 44 CPU capacity is: 63.2234
+For node 28 CPU capacity is: 62.138
+For node 23 CPU capacity is: 63.5791
+For node 13 CPU capacity is: 61.7441
+For node 40 CPU capacity is: 63.7997
+For node 11 CPU capacity is: 63.9527
+For node 51 CPU capacity is: 63.929
+For node 27 CPU capacity is: 63.7994
+For node 1 CPU capacity is: 62.1131
+For node 33 CPU capacity is: 62.8449
+For node 4 CPU capacity is: 63.5868
+For node 46 CPU capacity is: 2.14748e+009
+For node 21 CPU capacity is: 63.5376
+For node 38 CPU capacity is: 62.6708
+For node 25 CPU capacity is: 63.5814
+For node 42 CPU capacity is: 62.7178
+For node 37 CPU capacity is: 62.7369
+For node 34 CPU capacity is: 63.719
+
+_______________________________________________________________________________
+ ***Date and Time:08-06-2020 02:21:27 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 12
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 12
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 480847
+Number of blocked connections: 19154
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0383079
+
+BWD of provisioned connections : 264410200
+BWD of blocked connections : 10516200
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 311.694
+Real avg arrival rate PER SECOND, PER NODE: 6.11164
+
+TOTAL NUMBER OF Provisioned VNFS : 1634597Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 19534
+ Average number of active NFV-nodes: 12.1772
+ Average number of active NFV-nodes:(new simulation time) 23.8323
+ Average number of active WLs:(new simulation time) 9051.1
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 9.65768
+ Average number of VNFs activated:(new simulation time) 18.9013
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.07897
+ Total number of activated VNFs for 500001 connection is : 106
+ carried load [BH BWD * time] = 587.454
+Simulation Time: 1604.14
+
+ Number of NFV-nodes: 24
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 480847 Percentage: 0.961692
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 23 CPU capacity is: 63.5618
+For node 6 CPU capacity is: 62.8509
+For node 28 CPU capacity is: 63.0385
+For node 49 CPU capacity is: 61.732
+For node 40 CPU capacity is: 63.6494
+For node 13 CPU capacity is: 61.6317
+For node 31 CPU capacity is: 63.0895
+For node 44 CPU capacity is: 61.8609
+For node 9 CPU capacity is: 62.3593
+For node 19 CPU capacity is: 63.4053
+For node 16 CPU capacity is: 63.24
+For node 51 CPU capacity is: 63.9654
+For node 4 CPU capacity is: 63.8873
+For node 25 CPU capacity is: 63.6514
+For node 27 CPU capacity is: 63.033
+For node 34 CPU capacity is: 62.9697
+For node 1 CPU capacity is: 63.3916
+For node 11 CPU capacity is: 63.9672
+For node 37 CPU capacity is: 62.1111
+For node 38 CPU capacity is: 63.1704
+For node 33 CPU capacity is: 63.4068
+For node 21 CPU capacity is: 63.4875
+For node 42 CPU capacity is: 63.4491
+For node 46 CPU capacity is: 2.14748e+009
+
+
+_______________________________________________________________________________
+ ***Date and Time:08-06-2020 04:18:01 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 11
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 11
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 488419
+Number of blocked connections: 11582
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.023164
+
+BWD of provisioned connections : 268799300
+BWD of blocked connections : 6391600
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 286.395
+Real avg arrival rate PER SECOND, PER NODE: 5.61558
+
+TOTAL NUMBER OF Provisioned VNFS : 1647452Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 20984.4
+ Average number of active NFV-nodes: 12.0196
+ Average number of active NFV-nodes:(new simulation time) 23.7896
+ Average number of active WLs:(new simulation time) 8536.54
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 10.5052
+ Average number of VNFs activated:(new simulation time) 20.7921
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.12329
+ Total number of activated VNFs for 500001 connection is : 106
+ carried load [BH BWD * time] = 554.074
+Simulation Time: 1745.85
+
+ Number of NFV-nodes: 24
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 488419 Percentage: 0.976836
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 31 CPU capacity is: 63.3806
+For node 49 CPU capacity is: 62.2249
+For node 28 CPU capacity is: 63.2479
+For node 40 CPU capacity is: 63.6244
+For node 16 CPU capacity is: 61.919
+For node 9 CPU capacity is: 61.358
+For node 44 CPU capacity is: 63.5283
+For node 6 CPU capacity is: 61.683
+For node 13 CPU capacity is: 62.1068
+For node 19 CPU capacity is: 63.0031
+For node 23 CPU capacity is: 63.4667
+For node 4 CPU capacity is: 63.4992
+For node 11 CPU capacity is: 63.9745
+For node 34 CPU capacity is: 63.3132
+For node 38 CPU capacity is: 63.4971
+For node 33 CPU capacity is: 63.438
+For node 42 CPU capacity is: 63.4775
+For node 25 CPU capacity is: 63.0434
+For node 21 CPU capacity is: 63.1883
+For node 1 CPU capacity is: 62.9707
+For node 51 CPU capacity is: 63.9654
+For node 27 CPU capacity is: 63.0725
+For node 37 CPU capacity is: 63.2786
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:08-06-2020 04:15:44 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 493736
+Number of blocked connections: 6265
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.01253
+
+BWD of provisioned connections : 271503900
+BWD of blocked connections : 3408900
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 260.043
+Real avg arrival rate PER SECOND, PER NODE: 5.09888
+
+TOTAL NUMBER OF Provisioned VNFS : 1655481Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 22926.3
+ Average number of active NFV-nodes: 11.9236
+ Average number of active NFV-nodes:(new simulation time) 23.6944
+ Average number of active WLs:(new simulation time) 7898.2
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 11.471
+ Average number of VNFs activated:(new simulation time) 22.795
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.15836
+ Total number of activated VNFs for 500001 connection is : 106
+ carried load [BH BWD * time] = 509.741
+Simulation Time: 1922.76
+
+ Number of NFV-nodes: 24
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)128
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 493736 Percentage: 0.98747
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 31 CPU capacity is: 63.4442
+For node 6 CPU capacity is: 63.0103
+For node 49 CPU capacity is: 62.5075
+For node 44 CPU capacity is: 63.0416
+For node 23 CPU capacity is: 63.4184
+For node 40 CPU capacity is: 63.4241
+For node 13 CPU capacity is: 62.4941
+For node 28 CPU capacity is: 63.1076
+For node 37 CPU capacity is: 62.2623
+For node 46 CPU capacity is: 2.14748e+009
+For node 25 CPU capacity is: 63.3298
+For node 9 CPU capacity is: 62.7055
+For node 19 CPU capacity is: 62.2592
+For node 16 CPU capacity is: 61.3556
+For node 1 CPU capacity is: 63.2158
+For node 51 CPU capacity is: 63.9672
+For node 21 CPU capacity is: 62.8198
+For node 11 CPU capacity is: 63.9745
+For node 38 CPU capacity is: 63.1649
+For node 34 CPU capacity is: 63.4693
+For node 4 CPU capacity is: 63.6995
+For node 27 CPU capacity is: 62.925
+For node 42 CPU capacity is: 63.5563
+For node 33 CPU capacity is: 63.6878
+
+_______________________________________________________________________________
+ ***Date and Time:11-06-2020 03:57:05 AM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 5
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 5
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 315356
+Number of blocked connections: 184645
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.369289
+
+BWD of provisioned connections : 173594000
+BWD of blocked connections : 101523900
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 130.095
+Real avg arrival rate PER SECOND, PER NODE: 2.55088
+
+TOTAL NUMBER OF Provisioned VNFS : 1447390Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 21731.3
+ Average number of active NFV-nodes: 5.65423
+ Average number of active NFV-nodes:(new simulation time) 9.2177
+ Average number of active WLs:(new simulation time) 1817.09
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 3.73575
+ Average number of VNFs activated:(new simulation time) 6.09013
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.36097
+ Total number of activated VNFs for 500001 connection is : 34
+ carried load [BH BWD * time] = 133.784
+Simulation Time: 3843.36
+
+ Number of NFV-nodes: 9
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 104149 Percentage: 0.208298
+ Number of connections with VNFs on differnt nodes: 211207 Percentage: 0.422413
+For node 9 CPU capacity is: 62.0195
+For node 46 CPU capacity is: 2.14748e+009
+For node 27 CPU capacity is: 62.3806
+For node 31 CPU capacity is: 63.381
+For node 23 CPU capacity is: 63.5749
+For node 40 CPU capacity is: 63.8989
+For node 6 CPU capacity is: 62.7977
+For node 44 CPU capacity is: 63.024
+For node 37 CPU capacity is: 63.4549
+
+_______________________________________________________________________________
+ ***Date and Time:11-06-2020 04:38:31 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 1
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 1
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 92050
+Number of blocked connections: 7951
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0795092
+
+BWD of provisioned connections : 50500800
+BWD of blocked connections : 4378700
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 25.9312
+Real avg arrival rate PER SECOND, PER NODE: 0.508455
+
+TOTAL NUMBER OF Provisioned VNFS : 329834Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 13722.9
+ Average number of active NFV-nodes: 3.55848
+ Average number of active NFV-nodes:(new simulation time) 6.77087
+ Average number of active WLs:(new simulation time) 989.774
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 5.50267
+ Average number of VNFs activated:(new simulation time) 10.4702
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 5.65245
+ Total number of activated VNFs for 100001 connection is : 20
+ carried load [BH BWD * time] = 45.3134
+Simulation Time: 3856.4
+
+ Number of NFV-nodes: 6
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 31113 Percentage: 0.311127
+ Number of connections with VNFs on differnt nodes: 60937 Percentage: 0.609364
+For node 46 CPU capacity is: 2.14748e+009
+For node 9 CPU capacity is: 63.4285
+For node 19 CPU capacity is: 63.5748
+For node 37 CPU capacity is: 63.915
+For node 1 CPU capacity is: 63.6198
+For node 51 CPU capacity is: 63.9251
+
+_______________________________________________________________________________
+ ***Date and Time:16-06-2020 08:36:19 PM*** 
+Traffic patterns
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 88361
+Number of blocked connections: 11640
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.116399
+
+BWD of provisioned connections : 48470500
+BWD of blocked connections : 6421500
+ Number of latency violations: 9.9999e-006
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 40.6416
+Real avg arrival rate PER SECOND, PER NODE: 0.796895
+
+TOTAL NUMBER OF Provisioned VNFS : 318139Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 2.76762e+008
+ Average number of active NFV-nodes: 112480
+ Average number of active NFV-nodes:(new simulation time) 4.65482
+ Average number of active WLs:(new simulation time) 378.298
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -187525
+ Average number of VNFs activated:(new simulation time) -7.76048
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 6.47
+ Total number of activated VNFs for 100001 connection is : 20
+ carried load [BH BWD * time] = -1.00731
+Simulation Time: 2460.56
+
+ Number of NFV-nodes: 7
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 36136 Percentage: 0.361356
+ Number of connections with VNFs on differnt nodes: 52225 Percentage: 0.522245
+For node 37 CPU capacity is: 63.731
+For node 46 CPU capacity is: 2.14748e+009
+For node 16 CPU capacity is: 63.946
+For node 13 CPU capacity is: 63.893
+For node 49 CPU capacity is: 63.9197
+For node 31 CPU capacity is: 63.93
+For node 1 CPU capacity is: 63.9037
+
+_______________________________________________________________________________
+ ***Date and Time:17-06-2020 09:20:27 AM*** 
+traffic patterns
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 15
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 15
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 83849
+Number of blocked connections: 16152
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.161518
+
+BWD of provisioned connections : 46130100
+BWD of blocked connections : 8879900
+ Number of latency violations: 1.99998e-005
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 42.8266
+Real avg arrival rate PER SECOND, PER NODE: 0.839738
+
+TOTAL NUMBER OF Provisioned VNFS : 309790Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 2.48234e+008
+ Average number of active NFV-nodes: 106309
+ Average number of active NFV-nodes:(new simulation time) 4.70284
+ Average number of active WLs:(new simulation time) 394.77
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -173850
+ Average number of VNFs activated:(new simulation time) -7.69069
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 6.40121
+ Total number of activated VNFs for 100001 connection is : 10
+ carried load [BH BWD * time] = -1.00846
+Simulation Time: 2335.02
+
+ Number of NFV-nodes: 6
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 33719 Percentage: 0.337187
+ Number of connections with VNFs on differnt nodes: 50130 Percentage: 0.501295
+For node 42 CPU capacity is: 63.9917
+For node 40 CPU capacity is: 63.9348
+For node 38 CPU capacity is: 63.9572
+For node 46 CPU capacity is: 2.14748e+009
+For node 31 CPU capacity is: 63.9786
+For node 6 CPU capacity is: 63.9412
+
+_______________________________________________________________________________
+ ***Date and Time:17-06-2020 10:13:35 AM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 15
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 15
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 86530
+Number of blocked connections: 13471
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.134709
+
+BWD of provisioned connections : 47604500
+BWD of blocked connections : 7411200
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 41.5044
+Real avg arrival rate PER SECOND, PER NODE: 0.813811
+
+TOTAL NUMBER OF Provisioned VNFS : 316670Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 2.63019e+008
+ Average number of active NFV-nodes: 109163
+ Average number of active NFV-nodes:(new simulation time) 4.6882
+ Average number of active WLs:(new simulation time) 383.646
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -182501
+ Average number of VNFs activated:(new simulation time) -7.83783
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 6.46891
+ Total number of activated VNFs for 100001 connection is : 19
+ carried load [BH BWD * time] = -1.00872
+Simulation Time: 2409.41
+
+ Number of NFV-nodes: 5
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 34385 Percentage: 0.343847
+ Number of connections with VNFs on differnt nodes: 52145 Percentage: 0.521445
+For node 19 CPU capacity is: 63.692
+For node 46 CPU capacity is: 2.14748e+009
+For node 27 CPU capacity is: 63.6547
+For node 9 CPU capacity is: 62.9066
+For node 1 CPU capacity is: 63.7447
+
+_______________________________________________________________________________
+ ***Date and Time:17-06-2020 12:32:54 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 15
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 15
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 46127
+Number of blocked connections: 53874
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.538735
+
+BWD of provisioned connections : 25385800
+BWD of blocked connections : 29664700
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 77.5997
+Real avg arrival rate PER SECOND, PER NODE: 1.52156
+
+TOTAL NUMBER OF Provisioned VNFS : 201347Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 10879.6
+ Average number of active NFV-nodes: 8.44244
+ Average number of active NFV-nodes:(new simulation time) 8.71109
+ Average number of active WLs:(new simulation time) 1184.28
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 0.428775
+ Average number of VNFs activated:(new simulation time) 0.442419
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.6724
+ Total number of activated VNFs for 100001 connection is : 27
+ carried load [BH BWD * time] = 28.4166
+Simulation Time: 1288.68
+
+ Number of NFV-nodes: 9
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 17504 Percentage: 0.175038
+ Number of connections with VNFs on differnt nodes: 28623 Percentage: 0.286227
+For node 31 CPU capacity is: 63.9255
+For node 1 CPU capacity is: 63.5719
+For node 34 CPU capacity is: 63.7741
+For node 28 CPU capacity is: 63.9601
+For node 27 CPU capacity is: 63.8074
+For node 19 CPU capacity is: 63.2242
+For node 23 CPU capacity is: 63.9068
+For node 40 CPU capacity is: 63.8104
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:17-06-2020 05:01:42 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 15
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 15
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 3812
+Number of blocked connections: 96189
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.96188
+
+BWD of provisioned connections : 2067500
+BWD of blocked connections : 52810300
+ Number of latency violations: 0.000229998
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 434.208
+Real avg arrival rate PER SECOND, PER NODE: 8.51389
+
+TOTAL NUMBER OF Provisioned VNFS : 333041Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 875.743
+ Average number of active NFV-nodes: 3.80251
+ Average number of active NFV-nodes:(new simulation time) 3.80788
+ Average number of active WLs:(new simulation time) 22.2156
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 0.0124378
+ Average number of VNFs activated:(new simulation time) 0.0124553
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 0.0500471
+ Total number of activated VNFs for 100001 connection is : 12
+ carried load [BH BWD * time] = 10.2279
+Simulation Time: 230.306
+
+ Number of NFV-nodes: 3
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 3359 Percentage: 0.0335897
+ Number of connections with VNFs on differnt nodes: 453 Percentage: 0.00452995
+For node 9 CPU capacity is: 63.6566
+For node 19 CPU capacity is: 63.5317
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:17-06-2020 09:33:29 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 15
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 15
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 89870
+Number of blocked connections: 10131
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.101309
+
+BWD of provisioned connections : 49457300
+BWD of blocked connections : 5571900
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 19.8798
+Real avg arrival rate PER SECOND, PER NODE: 0.3898
+
+TOTAL NUMBER OF Provisioned VNFS : 324666Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 29211
+ Average number of active NFV-nodes: 5.80704
+ Average number of active NFV-nodes:(new simulation time) 6.87381
+ Average number of active WLs:(new simulation time) 704.925
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 1.90689
+ Average number of VNFs activated:(new simulation time) 2.25719
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 6.08411
+ Total number of activated VNFs for 100001 connection is : 31
+ carried load [BH BWD * time] = 15.5793
+Simulation Time: 5030.28
+
+ Number of NFV-nodes: 8
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 37157 Percentage: 0.371566
+ Number of connections with VNFs on differnt nodes: 52713 Percentage: 0.527125
+For node 44 CPU capacity is: 63.6437
+For node 46 CPU capacity is: 2.14748e+009
+For node 37 CPU capacity is: 63.6275
+For node 9 CPU capacity is: 63.2921
+For node 1 CPU capacity is: 63.7432
+For node 27 CPU capacity is: 63.6969
+For node 34 CPU capacity is: 63.9614
+For node 6 CPU capacity is: 63.9688
+
+_______________________________________________________________________________
+ ***Date and Time:17-06-2020 11:07:05 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 15
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 15
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 96524
+Number of blocked connections: 3477
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0347697
+
+BWD of provisioned connections : 53110400
+BWD of blocked connections : 1908900
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 18.5186
+Real avg arrival rate PER SECOND, PER NODE: 0.36311
+
+TOTAL NUMBER OF Provisioned VNFS : 331518Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 5.03496e+008
+ Average number of active NFV-nodes: 93239.6
+ Average number of active NFV-nodes:(new simulation time) 3.55703
+ Average number of active WLs:(new simulation time) 205.883
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -143244
+ Average number of VNFs activated:(new simulation time) -5.46465
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 6.4853
+ Total number of activated VNFs for 100001 connection is : 3
+ carried load [BH BWD * time] = -1.02394
+Simulation Time: 5400.02
+
+ Number of NFV-nodes: 2
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 38224 Percentage: 0.382236
+ Number of connections with VNFs on differnt nodes: 58300 Percentage: 0.582994
+For node 44 CPU capacity is: 63.9991
+For node 46 CPU capacity is: 2.14748e+009
+
+_______________________________________________________________________________
+ ***Date and Time:17-06-2020 11:52:10 PM*** 
+Random number of users between 1 to 10
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 97633
+Number of blocked connections: 2368
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0236798
+
+BWD of provisioned connections : 53682700
+BWD of blocked connections : 1293100
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 18.3017
+Real avg arrival rate PER SECOND, PER NODE: 0.358857
+
+TOTAL NUMBER OF Provisioned VNFS : 332582Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 5.05731e+008
+ Average number of active NFV-nodes: 92556.5
+ Average number of active NFV-nodes:(new simulation time) 3.47524
+ Average number of active WLs:(new simulation time) 197.636
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -142662
+ Average number of VNFs activated:(new simulation time) -5.35654
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 6.30609
+ Total number of activated VNFs for 100001 connection is : 8
+ carried load [BH BWD * time] = -1.02945
+Simulation Time: 5464.02
+
+ Number of NFV-nodes: 3
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 38648 Percentage: 0.386476
+ Number of connections with VNFs on differnt nodes: 58985 Percentage: 0.589844
+For node 46 CPU capacity is: 2.14748e+009
+For node 1 CPU capacity is: 63.942
+For node 27 CPU capacity is: 63.8788
+
+_______________________________________________________________________________
+ ***Date and Time:18-06-2020 11:45:06 AM*** 
+10 users-same placement as active
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 96857
+Number of blocked connections: 3144
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0314397
+
+BWD of provisioned connections : 96857000
+BWD of blocked connections : 3144000
+ Number of latency violations: 9.9999e-006
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 18.4501
+Real avg arrival rate PER SECOND, PER NODE: 0.361766
+
+TOTAL NUMBER OF Provisioned VNFS : 332459Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 5.00545e+008
+ Average number of active NFV-nodes: 92350
+ Average number of active NFV-nodes:(new simulation time) 3.54059
+ Average number of active WLs:(new simulation time) 216.796
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -141919
+ Average number of VNFs activated:(new simulation time) -5.441
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 6.34115
+ Total number of activated VNFs for 100001 connection is : 16
+ carried load [BH BWD * time] = -1.0247
+Simulation Time: 5420.09
+
+ Number of NFV-nodes: 5
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 38305 Percentage: 0.383046
+ Number of connections with VNFs on differnt nodes: 58552 Percentage: 0.585514
+For node 44 CPU capacity is: 63.3576
+For node 46 CPU capacity is: 2.14748e+009
+For node 9 CPU capacity is: 63.706
+For node 1 CPU capacity is: 63.8748
+For node 34 CPU capacity is: 63.706
+
+_______________________________________________________________________________
+ ***Date and Time:18-06-2020 01:05:43 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 100001
+Number of blocked connections: 0
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0
+
+BWD of provisioned connections : 100001000
+BWD of blocked connections : 0
+ Number of latency violations: 0
+Blocking probability because of unreachability: 0/0
+Blocking probability because of nodes' capacity: 0/0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 17.8696
+Real avg arrival rate PER SECOND, PER NODE: 0.350385
+
+TOTAL NUMBER OF Provisioned VNFS : 332948Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 6.05957e+008
+ Average number of active NFV-nodes: 108281
+ Average number of active NFV-nodes:(new simulation time) 3.84331
+ Average number of active WLs:(new simulation time) 66.7015
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -278941
+ Average number of VNFs activated:(new simulation time) -9.90067
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.18712
+ Total number of activated VNFs for 100001 connection is : 12
+ carried load [BH BWD * time] = -1.04491
+Simulation Time: 5596.14
+
+ Number of NFV-nodes: 4
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 100001 Percentage: 1
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 27 CPU capacity is: 63.9818
+For node 23 CPU capacity is: 63.8748
+For node 1 CPU capacity is: 63.9818
+For node 16 CPU capacity is: 63.6878
+
+_______________________________________________________________________________
+ ***Date and Time:18-06-2020 08:17:29 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 100000
+
+Number of provisioned connections: 99835
+Number of blocked connections: 166
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.00165998
+
+BWD of provisioned connections : 99835000
+BWD of blocked connections : 166000
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1.08534
+Real avg arrival rate PER SECOND, PER NODE: 0.0212811
+
+TOTAL NUMBER OF Provisioned VNFS : 332932Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 6.61075e+009
+ Average number of active NFV-nodes: 71748.2
+ Average number of active NFV-nodes:(new simulation time) 2.75857
+ Average number of active WLs:(new simulation time) 99.3589
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -81402.9
+ Average number of VNFs activated:(new simulation time) -3.12977
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 5.14038
+ Total number of activated VNFs for 100001 connection is : 5
+ carried load [BH BWD * time] = -1.07261
+Simulation Time: 92138.2
+
+ Number of NFV-nodes: 2
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 38447 Percentage: 0.384466
+ Number of connections with VNFs on differnt nodes: 61388 Percentage: 0.613874
+For node 31 CPU capacity is: 63.8656
+For node 23 CPU capacity is: 63.884
+
+_______________________________________________________________________________
+ ***Date and Time:19-06-2020 02:17:40 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 80
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 80
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 499028
+Number of blocked connections: 973
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.001946
+
+BWD of provisioned connections : 274381200
+BWD of blocked connections : 533100
+Blocking probability (connections; overall): 0.00198571 0.001946 0.00337407 0.00326429 0.00317931 0.00317667 0.00307419 0.00297812 0.00290606 0.00282059 0.00275429 0.00268056 0.00260811 0.00253947 0.00247436 0.0024125 0.00235366 0.00229762 0.00224419 0.00220455 0.00215556 0.0021087 0.00207021 0.00202708 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1.08547
+Real avg arrival rate PER SECOND, PER NODE: 0.0212837
+
+TOTAL NUMBER OF Provisioned VNFS : 1666864Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 1.74031e+011
+ Average number of active NFV-nodes: 377808
+ Average number of active NFV-nodes:(new simulation time) 2.69852
+ Average number of active WLs:(new simulation time) 101.153
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -512879
+ Average number of VNFs activated:(new simulation time) -3.66327
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 5.14661
+ Total number of activated VNFs for 500001 connection is : 10
+ carried load [BH BWD * time] = -1.09024
+Simulation Time: 460632
+
+ Number of NFV-nodes: 3
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 218104 Percentage: 0.436207
+ Number of connections with VNFs on differnt nodes: 280924 Percentage: 0.561847
+For node 13 CPU capacity is: 63.8751
+For node 46 CPU capacity is: 2.14748e+009
+For node 37 CPU capacity is: 63.8998
+
+_______________________________________________________________________________
+ ***Date and Time:19-06-2020 05:26:04 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 100
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 100
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 498246
+Number of blocked connections: 1755
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.00350999
+
+BWD of provisioned connections : 274172500
+BWD of blocked connections : 969600
+Blocking probability (connections; overall): 0.00358163 0.00351 0.00581481 0.00560714 0.00542414 0.00524333 0.00509032 0.00494062 0.00480303 0.00466471 0.00455143 0.00444722 0.00454054 0.00442105 0.00430769 0.004215 0.00412195 0.00402619 0.00394651 0.00388864 0.00383778 0.00375435 0.00368936 0.00363333 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1.08717
+Real avg arrival rate PER SECOND, PER NODE: 0.021317
+
+TOTAL NUMBER OF Provisioned VNFS : 1666198Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 1.62689e+011
+ Average number of active NFV-nodes: 353739
+ Average number of active NFV-nodes:(new simulation time) 2.60786
+ Average number of active WLs:(new simulation time) 105.845
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -444381
+ Average number of VNFs activated:(new simulation time) -3.27609
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 5.42882
+ Total number of activated VNFs for 500001 connection is : 6
+ carried load [BH BWD * time] = -1.08857
+Simulation Time: 459912
+
+ Number of NFV-nodes: 3
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 186648 Percentage: 0.373295
+ Number of connections with VNFs on differnt nodes: 311598 Percentage: 0.623195
+For node 16 CPU capacity is: 63.9871
+For node 9 CPU capacity is: 63.8788
+For node 1 CPU capacity is: 63.991
+
+_______________________________________________________________________________
+ ***Date and Time:19-06-2020 09:45:23 PM*** 
+filterless aware
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 100
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 100
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 500001
+Number of blocked connections: 0
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0
+
+BWD of provisioned connections : 274938900
+BWD of blocked connections : 0
+Blocking probability (connections; overall): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 0/0
+Blocking probability because of nodes' capacity: 0/0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1.08338
+Real avg arrival rate PER SECOND, PER NODE: 0.0212427
+
+TOTAL NUMBER OF Provisioned VNFS : 1666008Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 3.34434e+011
+ Average number of active NFV-nodes: 724635
+ Average number of active NFV-nodes:(new simulation time) 4.7826
+ Average number of active WLs:(new simulation time) 87.5412
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -1.98918e+006
+ Average number of VNFs activated:(new simulation time) -13.1286
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.17577
+ Total number of activated VNFs for 500001 connection is : 12
+ carried load [BH BWD * time] = -1.03956
+Simulation Time: 461520
+
+ Number of NFV-nodes: 3
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 500001 Percentage: 1
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 19 CPU capacity is: 63.9964
+For node 9 CPU capacity is: 63.8439
+For node 16 CPU capacity is: 63.9615
+
+_______________________________________________________________________________
+ ***Date and Time:21-06-2020 12:29:15 AM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 100
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 100
+Running phase duration: 10000
+Max tot num of connections to be simulated: 500000
+
+Number of provisioned connections: 500001
+Number of blocked connections: 0
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0
+
+BWD of provisioned connections : 275190100
+BWD of blocked connections : 0
+Blocking probability (connections; overall): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 0/0
+Blocking probability because of nodes' capacity: 0/0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1.08338
+Real avg arrival rate PER SECOND, PER NODE: 0.0212427
+
+TOTAL NUMBER OF Provisioned VNFS : 1666188Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 3.28135e+011
+ Average number of active NFV-nodes: 710988
+ Average number of active NFV-nodes:(new simulation time) 4.70298
+ Average number of active WLs:(new simulation time) 85.9197
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -1.94743e+006
+ Average number of VNFs activated:(new simulation time) -12.8817
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.20103
+ Total number of activated VNFs for 500001 connection is : 22
+ carried load [BH BWD * time] = -1.03931
+Simulation Time: 461520
+
+ Number of NFV-nodes: 9
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)20
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 500001 Percentage: 1
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 44 CPU capacity is: 63.9818
+For node 31 CPU capacity is: 63.9374
+For node 16 CPU capacity is: 63.9854
+For node 40 CPU capacity is: 63.975
+For node 37 CPU capacity is: 63.9945
+For node 1 CPU capacity is: 63.8998
+For node 49 CPU capacity is: 63.9499
+For node 42 CPU capacity is: 63.9873
+For node 9 CPU capacity is: 63.9873
+
+_______________________________________________________________________________
+ ***Date and Time:21-06-2020 05:27:53 PM*** 
+Filterless aware
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 150
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 150
+Running phase duration: 10000
+Max tot num of connections to be simulated: 200000
+
+Number of provisioned connections: 199997
+Number of blocked connections: 4
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 1.99999e-005
+
+BWD of provisioned connections : 109778200
+BWD of blocked connections : 3100
+Blocking probability (connections; overall): 0.0002 0.00015 0.0001 7.5e-005 6e-005 5e-005 4.28571e-005 3.75e-005 3.33333e-005 3e-005 2.72727e-005 2.5e-005 2.30769e-005 2.14286e-005 2.66667e-005 2.5e-005 2.35294e-005 2.22222e-005 2.10526e-005 2e-005 0 0 0 0 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1.08338
+Real avg arrival rate PER SECOND, PER NODE: 0.0212428
+
+TOTAL NUMBER OF Provisioned VNFS : 666846Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 5.36008e+010
+ Average number of active NFV-nodes: 290349
+ Average number of active NFV-nodes:(new simulation time) 4.80099
+ Average number of active WLs:(new simulation time) 86.5381
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -803859
+ Average number of VNFs activated:(new simulation time) -13.292
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.23069
+ Total number of activated VNFs for 200001 connection is : 11
+ carried load [BH BWD * time] = -1.03675
+Simulation Time: 184608
+
+ Number of NFV-nodes: 3
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)15
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 199997 Percentage: 0.99998
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 13 CPU capacity is: 63.9374
+For node 31 CPU capacity is: 63.9124
+For node 49 CPU capacity is: 63.7815
+
+_______________________________________________________________________________
+ ***Date and Time:22-06-2020 11:09:34 AM*** 
+No filterless aware
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 150
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 150
+Running phase duration: 10000
+Max tot num of connections to be simulated: 200000
+
+Number of provisioned connections: 192111
+Number of blocked connections: 7890
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0394498
+
+BWD of provisioned connections : 105768000
+BWD of blocked connections : 4326400
+Blocking probability (connections; overall): 0.2674 0.15775 0.130167 0.1131 0.10574 0.09765 0.0868571 0.0794875 0.0724111 0.06858 0.0640455 0.0601417 0.0581923 0.0543571 0.0511867 0.0482187 0.0455824 0.0432444 0.0412263 0.03945 0 0 0 0 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1.12792
+Real avg arrival rate PER SECOND, PER NODE: 0.0221161
+
+TOTAL NUMBER OF Provisioned VNFS : 665623Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 1.62625e+010
+ Average number of active NFV-nodes: 91714
+ Average number of active NFV-nodes:(new simulation time) 1.93412
+ Average number of active WLs:(new simulation time) 56.8871
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -68454
+ Average number of VNFs activated:(new simulation time) -1.4436
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 3.31175
+ Total number of activated VNFs for 200001 connection is : 3
+ carried load [BH BWD * time] = -1.15981
+Simulation Time: 177318
+
+ Number of NFV-nodes: 1
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)15
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 80778 Percentage: 0.403888
+ Number of connections with VNFs on differnt nodes: 111333 Percentage: 0.556662
+For node 23 CPU capacity is: 63.9875
+
+_______________________________________________________________________________
+ ***Date and Time:22-06-2020 11:48:40 AM*** 
+No filterless aware
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 150
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 150
+Running phase duration: 10000
+Max tot num of connections to be simulated: 200000
+
+Number of provisioned connections: 93601
+Number of blocked connections: 4335
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.0442636
+
+BWD of provisioned connections : 51527600
+BWD of blocked connections : 2397000
+Blocking probability (connections; overall): 0.2473 0.15135 0.105667 0.083525 0.07122 0.0614167 0.0541571 0.0488125 0.0452111 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 1.13352
+Real avg arrival rate PER SECOND, PER NODE: 0.0222259
+
+TOTAL NUMBER OF Provisioned VNFS : 324625Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 4.34298e+009
+ Average number of active NFV-nodes: 50266
+ Average number of active NFV-nodes:(new simulation time) 2.13305
+ Average number of active WLs:(new simulation time) 65.3247
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: -48017.5
+ Average number of VNFs activated:(new simulation time) -2.03763
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 4.0287
+ Total number of activated VNFs for 97936 connection is : 5
+ carried load [BH BWD * time] = -1.10203
+Simulation Time: 24
+
+ Number of NFV-nodes: 1
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)15
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 42398 Percentage: 0.432915
+ Number of connections with VNFs on differnt nodes: 51203 Percentage: 0.522821
+For node 49 CPU capacity is: 63.7815
+
+_______________________________________________________________________________
+ ***Date and Time:26-06-2020 04:28:57 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 5
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 5
+Running phase duration: 10000
+Max tot num of connections to be simulated: 800000
+
+Number of provisioned connections: 958517
+Number of blocked connections: 41484
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.041484
+
+BWD of provisioned connections : 527449800
+BWD of blocked connections : 22820800
+Blocking probability (connections; overall): 0.0403804 0.0408214 0.0411657 0.041484 0.0346584 0.0345705 0.0344392 0.0343912 0.0343975 0.0344305 0.0348904 0.0353345 0.0357929 0.0361849 0.0366 0.0369784 0.0374854 0.0379 0.0383209 0.0386359 0.039029 0.0394181 0.0397611 0.0401 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 48.0964
+Real avg arrival rate PER SECOND, PER NODE: 0.943067
+
+TOTAL NUMBER OF Provisioned VNFS : 3286044Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 131373
+ Average number of active NFV-nodes: 6.31855
+ Average number of active NFV-nodes:(new simulation time) 12.3425
+ Average number of active WLs:(new simulation time) 1006.2
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 12.8481
+ Average number of VNFs activated:(new simulation time) 25.0971
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 3.4827
+ Total number of activated VNFs for 1e+006 connection is : 60
+ carried load [BH BWD * time] = 90.0739
+Simulation Time: 5.77544
+
+ Number of NFV-nodes: 15
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 958517 Percentage: 0.958516
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 46 CPU capacity is: 2.14748e+009
+For node 1 CPU capacity is: 63.4742
+For node 9 CPU capacity is: 63.2819
+For node 27 CPU capacity is: 62.7512
+For node 31 CPU capacity is: 63.712
+For node 19 CPU capacity is: 63.9376
+For node 34 CPU capacity is: 63.5005
+For node 4 CPU capacity is: 63.8498
+For node 23 CPU capacity is: 63.6995
+For node 6 CPU capacity is: 63.8751
+For node 13 CPU capacity is: 63.5626
+For node 44 CPU capacity is: 63.719
+For node 49 CPU capacity is: 63.2815
+For node 40 CPU capacity is: 63.8623
+For node 37 CPU capacity is: 63.8247
+
+_______________________________________________________________________________
+ ***Date and Time:28-06-2020 10:46:39 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 10
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 10
+Running phase duration: 10000
+Max tot num of connections to be simulated: 800000
+
+Number of provisioned connections: 803014
+Number of blocked connections: 196987
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.196987
+
+BWD of provisioned connections : 441635300
+BWD of blocked connections : 108373300
+Blocking probability (connections; overall): 0.200029 0.198997 0.197923 0.196987 0.225488 0.223977 0.222408 0.220824 0.219337 0.217857 0.216402 0.21511 0.213769 0.212336 0.211163 0.209975 0.208789 0.207598 0.206487 0.20541 0.204171 0.203106 0.202085 0.201035 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 94.0004
+Real avg arrival rate PER SECOND, PER NODE: 1.84315
+
+TOTAL NUMBER OF Provisioned VNFS : 3054679Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 80353.6
+ Average number of active NFV-nodes: 7.55326
+ Average number of active NFV-nodes:(new simulation time) 13.7341
+ Average number of active WLs:(new simulation time) 1285.83
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 10.4401
+ Average number of VNFs activated:(new simulation time) 18.9832
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.87261
+ Total number of activated VNFs for 1e+006 connection is : 57
+ carried load [BH BWD * time] = 137.372
+Simulation Time: 2.95507
+
+ Number of NFV-nodes: 14
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 803014 Percentage: 0.803013
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 46 CPU capacity is: 2.14748e+009
+For node 1 CPU capacity is: 63.1737
+For node 27 CPU capacity is: 62.8136
+For node 40 CPU capacity is: 63.7746
+For node 31 CPU capacity is: 63.9499
+For node 9 CPU capacity is: 63.5941
+For node 37 CPU capacity is: 63.6745
+For node 44 CPU capacity is: 63.3444
+For node 19 CPU capacity is: 63.5005
+For node 13 CPU capacity is: 63.8125
+For node 4 CPU capacity is: 63.975
+For node 49 CPU capacity is: 63.6563
+For node 6 CPU capacity is: 63.7502
+For node 34 CPU capacity is: 63.7502
+
+_______________________________________________________________________________
+ ***Date and Time:11-07-2020 12:01:08 AM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 1
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 1
+Running phase duration: 10000
+Max tot num of connections to be simulated: 800000
+
+Number of provisioned connections: 1500865
+Number of blocked connections: 3881
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.00257917
+
+BWD of provisioned connections : 825336400
+BWD of blocked connections : 2129400
+Blocking probability (connections; overall): 0 0 0 0 0 0 0 0 0 0 0.000164865 0.000528261 0.000616981 0.000709836 0.000912857 0.00123375 0.00137444 0.00139293 0.00131698 0.00127321 0.0014377 0.00221866 0.00265205 0.00258733 
+NFV nodes (connections; overall): 6.51728 5.95419 5.53835 5.16611 5.17562 5.11305 4.91663 4.82668 4.88615 5.10017 5.58517 5.94495 6.18473 6.42205 6.66275 6.89639 7.10541 7.2668 7.36512 7.40387 7.54783 7.71529 7.86513 7.8287 
+Blocking probability (BWD; overall): 0 0 0 0 0 0 0 0 0 0 0.000154151 0.000539961 0.000629583 0.000711662 0.000912742 0.0012254 0.0013648 0.00138894 0.00131072 0.0012701 0.00143886 0.00221938 0.00264528 0.0025815 
+Latency violation (hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Wavelength usage (hourly): 184.705 162.412 146.112 131.116 131.108 128.748 122.182 118.816 120.827 129.121 163.054 197.511 219.198 240.805 263.706 287.716 308.205 323.49 332.007 335.136 349.613 369.304 385.945 382.434 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 17.416
+Real avg arrival rate PER SECOND, PER NODE: 0.34149
+
+TOTAL NUMBER OF Provisioned VNFS : 5010400Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 345814
+ Average number of active NFV-nodes: 4.00247
+ Average number of active NFV-nodes:(new simulation time) 7.8246
+ Average number of active WLs:(new simulation time) 382.035
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 10.1576
+ Average number of VNFs activated:(new simulation time) 19.8576
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.98928
+ Total number of activated VNFs for 1.50475e+006 connection is : 23
+ carried load [BH BWD * time] = 33.9693
+Simulation Time: 24.0001
+
+Simulation Time (new): 12.2766
+
+ Number of NFV-nodes: 6
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 1500865 Percentage: 0.997421
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 1 CPU capacity is: 63.9124
+For node 46 CPU capacity is: 2.14748e+009
+For node 44 CPU capacity is: 63.719
+For node 19 CPU capacity is: 63.8127
+For node 9 CPU capacity is: 63.9063
+For node 37 CPU capacity is: 63.8998
+
+_______________________________________________________________________________
+ ***Date and Time:13-07-2020 06:07:13 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless.txt
+Avg arrival rate: 1
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 1
+Running phase duration: 10000
+Max tot num of connections to be simulated: 800000
+
+Number of provisioned connections: 1499560
+Number of blocked connections: 4274
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.00284207
+
+BWD of provisioned connections : 1124832300
+BWD of blocked connections : 3195200
+Blocking probability (connections; overall): 0 0 0 0 0 0 0 0 0 0 0.00125676 0.00132174 0.00123396 0.00128361 0.00126571 0.0015375 0.00164444 0.00170707 0.00165472 0.00157768 0.00176066 0.00255075 0.00292466 0.00284933 
+NFV nodes (connections; overall): 6.52356 5.96789 5.53276 5.22585 5.16813 5.10457 4.91953 4.83153 4.89607 5.11076 5.58855 5.95034 6.18737 6.42333 6.66052 6.89679 7.10222 7.26087 7.36173 7.4019 7.54049 7.7068 7.85777 7.82115 
+Blocking probability (BWD; overall): 0 0 0 0 0 0 0 0 0 0 0.00125977 0.00132173 0.00124278 0.00128649 0.00126445 0.0015367 0.00164457 0.00170314 0.00165143 0.00157357 0.00175235 0.00253712 0.00291474 0.0028398 
+Latency violation (hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Wavelength usage (hourly): 183.916 160.291 144.007 132.89 130.24 127.608 120.913 117.735 119.837 128.409 174.957 208.353 229.252 250.344 270.788 294.427 314.737 329.528 338.078 340.851 355.025 374.629 391.176 387.328 
+ Number of connections(hourly): 39125 27557 21360 21155 28007 21279 16303 21473 31353 42981 100572 89307 78006 78610 89123 100516 94828 89003 76802 56802 99705 125999 111047 42920 
+ bw of connections(hourly): 2.93101e+007 2.06863e+007 1.601e+007 1.58381e+007 2.09963e+007 1.59429e+007 1.22286e+007 1.61393e+007 2.3448e+007 3.22381e+007 7.49511e+007 6.69557e+007 5.84613e+007 5.88747e+007 6.68207e+007 7.51644e+007 7.09929e+007 6.65483e+007 5.75516e+007 4.2653e+007 7.45451e+007 9.35051e+007 8.27544e+007 3.22158e+007 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 17.4055
+Real avg arrival rate PER SECOND, PER NODE: 0.341284
+
+TOTAL NUMBER OF Provisioned VNFS : 5009160Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 345588
+ Average number of active NFV-nodes: 3.99985
+ Average number of active NFV-nodes:(new simulation time) 7.81788
+ Average number of active WLs:(new simulation time) 386.959
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 10.1558
+ Average number of VNFs activated:(new simulation time) 19.85
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 3.02339
+ Total number of activated VNFs for 1.50383e+006 connection is : 26
+ carried load [BH BWD * time] = 33.892
+Simulation Time: 24
+
+Simulation Time (new): 12.2791
+
+ Number of NFV-nodes: 7
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:16
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 1499560 Percentage: 0.997158
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 46 CPU capacity is: 2.14748e+009
+For node 27 CPU capacity is: 63.5629
+For node 4 CPU capacity is: 63.7246
+For node 44 CPU capacity is: 63.5629
+For node 13 CPU capacity is: 63.9249
+For node 9 CPU capacity is: 63.4068
+For node 40 CPU capacity is: 63.8998
+
+_______________________________________________________________________________
+ ***Date and Time:13-07-2020 10:12:08 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 1
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 1
+Running phase duration: 10000
+Max tot num of connections to be simulated: 800000
+
+Number of provisioned connections: 1117625
+Number of blocked connections: 171
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.00015298
+
+BWD of provisioned connections : 838107700
+BWD of blocked connections : 131500
+Blocking probability (connections; overall): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5.9e-005 0.000157407 0.000154054 
+NFV nodes (connections; overall): 5.42748 5.03351 4.56942 4.26809 4.26279 4.21019 4.1327 3.97063 4.00415 4.19659 4.60575 4.94961 5.19205 5.36123 5.58558 5.79352 5.99648 6.12532 6.23031 6.26069 6.37769 6.55529 6.68242 6.66187 
+Blocking probability (BWD; overall): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5.99973e-005 0.00016112 0.000157974 
+Latency violation (hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Wavelength usage (hourly): 132.434 120.445 106.172 96.8557 96.744 95.1208 92.6097 87.8124 88.8974 95.3387 114.911 130.807 141.028 148.051 158.18 168.134 177.791 183.766 187.816 188.406 194.136 208.225 222.075 222.847 
+ Number of connections(hourly): 29078 20552 15827 15893 20748 15768 12114 15749 23417 32006 75048 66415 58174 57994 65849 74967 70628 66294 56804 42513 73957 93658 82560 31782 
+ bw of connections(hourly): 2.17683e+007 1.53732e+007 1.18584e+007 1.19052e+007 1.55223e+007 1.18358e+007 9.1033e+006 1.18352e+007 1.7532e+007 2.40183e+007 5.62826e+007 4.97926e+007 4.36743e+007 4.35276e+007 4.94732e+007 5.62577e+007 5.29575e+007 4.96853e+007 4.26201e+007 3.18904e+007 5.55072e+007 7.01187e+007 6.17685e+007 2.37994e+007 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 12.9374
+Real avg arrival rate PER SECOND, PER NODE: 0.253675
+
+TOTAL NUMBER OF Provisioned VNFS : 3723740Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 295529
+ Average number of active NFV-nodes: 3.42047
+ Average number of active NFV-nodes:(new simulation time) 6.65239
+ Average number of active WLs:(new simulation time) 222.782
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 9.00568
+ Average number of VNFs activated:(new simulation time) 17.515
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 2.35187
+ Total number of activated VNFs for 1.1178e+006 connection is : 21
+ carried load [BH BWD * time] = 25.157
+Simulation Time: 24
+
+Simulation Time (new): 12.3401
+
+ Number of NFV-nodes: 6
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 1117625 Percentage: 0.999847
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 1 CPU capacity is: 63.8748
+For node 49 CPU capacity is: 63.7376
+For node 46 CPU capacity is: 2.14748e+009
+For node 40 CPU capacity is: 63.8498
+For node 23 CPU capacity is: 63.8372
+For node 6 CPU capacity is: 63.7815
+
+_______________________________________________________________________________
+ ***Date and Time:17-07-2020 10:58:57 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless2.txt
+Avg arrival rate: 5
+Avg holding time: 1
+Traffic (arr rate * holding time) [Erlang]: 5
+Running phase duration: 10000
+Max tot num of connections to be simulated: 800000
+
+Number of provisioned connections: 4743063
+Number of blocked connections: 844147
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.151086
+
+BWD of provisioned connections : 3557837400
+BWD of blocked connections : 633355600
+Blocking probability (connections; overall): 0.0147571 0.0102458 0.00795313 0.0065775 0.006008 0.0053431 0.00487656 0.00441111 0.00460952 0.007295 0.0614606 0.0835842 0.09011 0.0950581 0.104413 0.117564 0.125172 0.129617 0.129253 0.125693 0.132181 0.147233 0.154729 0.151258 
+NFV nodes (connections; overall): 11.9254 11.2745 10.6639 10.3474 10.3825 10.2416 9.98984 9.88375 10.0036 10.2239 10.59 10.8867 11.1064 11.2975 11.4743 11.6391 11.7778 11.9008 11.9925 12.0466 12.1422 12.2393 12.3207 12.3181 
+Blocking probability (BWD; overall): 0.0148 0.0103084 0.0080028 0.00661441 0.00605359 0.0053831 0.00491747 0.00444378 0.00463922 0.00731114 0.0615227 0.0836833 0.0901985 0.0951374 0.104501 0.117648 0.125227 0.129653 0.129281 0.12573 0.132219 0.147286 0.154759 0.151289 
+Latency violation (hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Wavelength usage (hourly): 903.564 791.313 701.361 654.629 655.581 634.632 603.731 589.973 606.307 645.349 748.495 828.414 883.698 931.212 979.715 1027.69 1067.26 1100.48 1122.3 1129.13 1157.55 1190.98 1217.53 1210 
+ Number of connections(hourly): 144590 102696 79147 79630 102754 79122 61092 79279 117119 159389 374481 332234 289635 290073 331876 373701 350978 333229 285375 210902 370193 468539 412349 158826 
+ bw of connections(hourly): 1.06852e+008 7.68915e+007 5.93331e+007 5.97139e+007 7.67273e+007 5.9257e+007 4.58025e+007 5.94277e+007 8.72479e+007 1.16897e+008 2.21963e+008 2.06314e+008 1.89368e+008 1.8959e+008 2.06605e+008 2.21274e+008 2.1327e+008 2.06848e+008 1.87428e+008 1.49135e+008 2.19972e+008 2.48021e+008 2.33509e+008 1.16395e+008 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 64.6668
+Real avg arrival rate PER SECOND, PER NODE: 1.26798
+
+TOTAL NUMBER OF Provisioned VNFS : 17472008Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 564049
+ Average number of active NFV-nodes: 6.52835
+ Average number of active NFV-nodes:(new simulation time) 12.3179
+ Average number of active WLs:(new simulation time) 1209.62
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 11.4723
+ Average number of VNFs activated:(new simulation time) 21.6465
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 3.18107
+ Total number of activated VNFs for 5.58721e+006 connection is : 52
+ carried load [BH BWD * time] = 103.561
+Simulation Time: 24
+
+Simulation Time (new): 12.7197
+
+ Number of NFV-nodes: 13
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)40
+ Total hop count: 0
+
+ Total number of NFVnodes is:25
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 4743063 Percentage: 0.848914
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 46 CPU capacity is: 2.14748e+009
+For node 1 CPU capacity is: 63.8122
+For node 27 CPU capacity is: 63.0322
+For node 19 CPU capacity is: 63.2195
+For node 40 CPU capacity is: 63.6119
+For node 49 CPU capacity is: 63.6751
+For node 34 CPU capacity is: 63.6878
+For node 31 CPU capacity is: 63.7371
+For node 37 CPU capacity is: 63.8247
+For node 9 CPU capacity is: 63.5005
+For node 23 CPU capacity is: 63.8998
+For node 6 CPU capacity is: 63.1883
+For node 44 CPU capacity is: 63.7815
