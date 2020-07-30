@@ -10,8 +10,8 @@
 //#define CHANNEL_CAPACITY 7680		//-B: it sets OCLightpath - 10G = OC192; 25G = OC486; 40G = OC768; 100G = OC1944
 		//LA:as I can't have less than 50mbps for bwgrandularity i increase channel capacity 10 times(768->7680)
 									//LA:in this way the bw requirements for all SC is set to 5mbps
-#define CHANNEL_CAPACITY 1000		//LA:in mbps (40G)
-#define AB_LINK_CAPACITY 40000	//LA:added to support lighter version
+#define CHANNEL_CAPACITY 1000		//LA:in mbps (10G)
+#define AB_LINK_CAPACITY 10000	//LA:added to support lighter version
 #define BWDGRANULARITY OC6			//-B: bandwidth granularity -> amount of bandwidth requested by each mobile connection
 									//-> needed for BBUReadTopoHelper to set channel capacity and to set backhaul bwd of macro cell
 //#define NumberOfWavelength 8		//LA:number of wavelengths per link(instead is defined in WDMnetwork)

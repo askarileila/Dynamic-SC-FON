@@ -1,0 +1,106 @@
+14 INPUT DATA: (arg[])
+Leila	DynamicVNF.txt	Dynamic_VNF	10	1.2	1	30	0.00001	0	DVNF	0.005	1	1	
+Dynamic_VNF
+
+Reading topology file in NetMan class
+Reading the topology file is done now it's time to set the provisioing type
+	-> genStateGraph...
+	WDMNet --> NodeList size, LinkLIst (end genstategraph): 20 , 64
+	GRAPH --> NodeList, LinkLIst size (end genstategraph): 1040 , 3100
+	...end!
+
+-> Initialization phase of Simulator - Press Enter
+
+	NetMan provisioning type = PT_DVNF	pBandw distribution = DBG_Uniform192
+	Protection class = PC_NoProtection	Wavelength Continuity (0=not enabled) = 0
+
+-> Simulator dump
+	Num running conn = 10000 | Total conn = 10 | ArrRate: 1.2 | ArrRate var: 1.2 | Mean hold time: 1 | Num OXC nodes: 20 | Num of node pairs: 380
+running simulator 
+
+Press Enter to start the simulation
+1111111111111111111111111111111111111111...
+
+-> NextEvent
+	L'evento selezionato da nextEvent e': ARRIVAL
+
+1111111111111111111111111111111111111111*********************************************************************
+Start of the WHILE:	0 prov () connections
+		0 bloc (0) latency) connections
+		0 (0 arr + 0 dep)  events
+*********************************************************************
+
+TIME: 0.0201024 - running time span: 0.0201024 - #CONNECTIONS: 0 - Premi invio per aggiornare le stats
+- NETWORK COST (average): 0
+
+Number of activated VNFs in the network :0
+; lightpaths peak = 0)
+-> xLog output
+++++++++++++++++++++++++++++++++++ STATS TIME +++++++++++++++++++++++++++++++++++++++++
+- Provisioned Connections = 0 ; Blocked Connections = 0
+- Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0/0 = -1.#IND
+- Blocking probability due to Unreachability = #Blocked Connections due to Unreachability/ #Blocked connections = 0/0 = -1.#IND
+- Blocking probability due to Latency = #Blocked connections due to Latency / #Blocked Connections = 0/0 = -1.#IND
+++++++++++++++++++++++++++++++++++++++ BWD ++++++++++++++++++++++++++++++++++++++++++++
+- Blocking Probability (in terms of bandwidth) = 0/0 = -1.#IND
+-> showLog (every 10000 connections)
+- Load in network: -1.#IND	
+- ARRIVAL RATE: 1.2
+-> HLOG OUTPUT #2
+Provisioned Connections: 0	
+Blocked connections: 0	
+Num of segments: 0	
+Primary Hop Distance: 0	
+Backup Hop distance0	
+- ROUTE-COMPUTATION-EFFECTIVENESS-RATIO: 0	
+- SUM LINK LOAD: 0	
+Primary Rc(?): 0	
+Link load - Primary Rc: 0	
+- SIMULATION TIME SPAN: 0.0201	
+Blocked Connection due to path: 0	
+?: -1.#IO	
+UnAvLPMedia: -1.#IO
+
+Conflitti primario: 0
+Conflitti backup: 0
+Conflitti Prim & Bak: 0
+Falsi conflitti: 0
+---------------Exiting showLog---------------
+
+
+-> printStat
+BLOCKING PROB:
+- Mean: 0
+- Variance: 0
+- Standard Deviation: 0
+---------------ESCO printStat---------------
+#Connections: 0 - time: 0.0201
+Lightpath list DB size: 0
+ - Connection list DB size: 0
+Graph link list size: 3100 - Event list size: 7
+Provisioned connections: 0 - blocked connections: 0
+...
+
+ There is an arrival:
+-> DVNF_NewConnection: 
+this is the random number:1
+ The service type is: 1
+
+Creating a VNF of type:NAT
+
+Creating a VNF of type:FW
+
+Creating a VNF of type:TM
+
+Creating a VNF of type:WOC
+
+Creating a VNF of type:IDPS
+Service chain created
+
+Created a connection with Sequence number 1 -  from :13->19
+
+ Connection is created and Service chain is assigned:
+ | Lightpath:
+->DVNF_ProvisionVNF
+
+Provisioning VNF of type :NAT

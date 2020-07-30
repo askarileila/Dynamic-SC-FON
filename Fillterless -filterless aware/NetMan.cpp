@@ -10364,8 +10364,7 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 
 	//LA:moved up to improve the performance
 	invalidateSimplexLinkDueToCapOrStatus(bwd);
-
-	//LA:**FEATURE-MIXED SC: if SC can be served locally find best dst
+//LA:**FEATURE-MIXED SC: if SC can be served locally find best dst
  		if(pCon->m_SC->local){
 		vector <int> DstNodesID;
 		LINK_COST Dijkstracost=UNREACHABLE,DstCost=UNREACHABLE;
@@ -10373,12 +10372,15 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 		int dstlocalid=UNREACHABLE;
 		DstNodesID.clear();
 		AbstractNode* pVSrc, *pVDst;
-		DstNodesID=this->DVNF_BuildLocalNodes(pCon->m_SC);
-		for(int i=0;i<DstNodesID.size();i++)
+		/*DstNodesID=this->DVNF_BuildLocalNodes(pCon->m_SC);*/
+		//LA:having all nfv nodes as destinations
+		
+		/*for(int i=0;i<DstNodesID.size();i++)*/
+		for(int i=0;i<NFVCapnodes.size();i++)
 		{
-			dstlocalid=DstNodesID[i];
+			/*dstlocalid=DstNodesID[i];*/
 			pVSrc = m_hWDMNet.m_hNodeList.find(pCon->m_nSrc);
-			pVDst = m_hWDMNet.m_hNodeList.find(dstlocalid);
+			pVDst = m_hWDMNet.m_hNodeList.find(NFVCapnodes[i]->getId());
 			Dijkstracost= m_hWDMNet.Dijkstra(ShortestPathLA,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
 			if(Dijkstracost<DstCost){
 				DstCost=Dijkstracost;
@@ -10386,6 +10388,7 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 			}
 		}
 	}
+		
 		
 			
 		
@@ -13376,21 +13379,31 @@ int NetMan:: DVNF_Count_Active_Nodes()
 	}
 	return ratio;
 }
-int NetMan:: DVNF_Count_Active_WL()
+vector <int> NetMan:: DVNF_Count_Active_WL()
 {
-	int ratio=0;
+	int ratio_Tree,ratio_Link=0;
 	list<AbstractLink*>::const_iterator itr ;
 	AbstractLink* pLink;
+	vector <int> wl_Consumption;
 	for (itr= m_hWDMNet.m_hLinkList.begin();itr!= m_hWDMNet.m_hLinkList.end();itr++)
 	{
 		pLink=(AbstractLink*)(*itr);
 		for(int i=0;i<pLink->m_linkCap_Array.size();i++){
 
-			if(pLink->m_linkCap_Array[i]<CHANNEL_CAPACITY)
-			ratio++;
+			if(pLink->m_linkCap_Array[i]<CHANNEL_CAPACITY){
+				if(pLink->LinkTree!=-1)
+					ratio_Tree++;
+				else
+					ratio_Link++;
+			}
 		}
 	}
-	return ratio/2+1;
+	ratio_Tree=ratio_Tree/2+1;
+	wl_Consumption.push_back(ratio_Tree);
+	
+	ratio_Link=ratio_Link/2+1;
+	wl_Consumption.push_back(ratio_Link);
+	return wl_Consumption;
 }
 void NetMan::DVNF_Recover_AftGrouping( vector <OXCNode*> SCnodesold ,list<AbstractLink*> SCpathold,Connection * pCon)
 {

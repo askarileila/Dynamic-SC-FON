@@ -37,15 +37,18 @@ public:
 	double	m_VNF_SC_Ratio;	
 	double	m_Active_Node;
 	double	m_Active_wl;
+	double	m_Active_wl_tree;
 	UINT	m_TotActiveReal;
 	double	m_Tot_Active_Node;
 	double	m_Tot_Active_wl;
+	double 	m_Tot_Active_wl_tree;
 	UINT	m_Latency_Violated;
 	UINT	m_CounterConn;
 	double	m_Con_Link;	//number of links for path of SC
 	double	NFVNodes_hour[24]; //LA:number of nfv nodes per hour
 	double	LatViol_hour[24];		//LA:latency violation hourly
 	double	Wl_hour[24];			//LA:number of wavelengths hourly 
+	double	Wl_hour_tree[24];			//LA:number of wavelengths hourly for trees
 	double Con_hour[24];			//LA:number of connections per hour
 	double bw_Con_hour[24];			//LA:bandwidth of connection per hour
 	//-B:

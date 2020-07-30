@@ -374,7 +374,7 @@ public:
 	int NetMan::DVNF_Counthops(Connection* );
 	char* NetMan::DVNF_BottleNeck(AbstractNode*,AbstractNode*);
 	bool NetMan::DVNF_Reprovision(Connection*,AbstractNode*,AbstractNode*);
-	int DVNF_Count_Active_WL();
+	vector <int> DVNF_Count_Active_WL();
 
 
 	void consumeLightpathBandwidth(const Lightpath*, UINT);

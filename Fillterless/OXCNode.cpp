@@ -38,7 +38,7 @@ OXCNode::OXCNode(UINT nNodeId, WConversionCapability eConversion,
 	if(m_Flag==-1)
 		CPURes=UNREACHABLE;
 	else
-		CPURes=64;
+		CPURes=24;
 	//NetMan net;
 	if (nNFVFlag == 1) //LA: NFV enabled node
 	{
@@ -70,7 +70,7 @@ OXCNode::OXCNode(UINT nNodeId, WConversionCapability eConversion,
 	if(m_Flag==-1)
 		CPURes=UNREACHABLE;
 	else
-		CPURes=64;
+		CPURes=24;
 
 	if (nNFVFlag == 1) // LA: NFV enabled node
 	{

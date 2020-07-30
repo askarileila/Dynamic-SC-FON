@@ -888,9 +888,12 @@ this->m_pNetMan->m_hWDMNetPast.dump(cout);
 			//m_pNetMan->m_hLog.m_VNF_SC_Ratio=m_pNetMan->DVNF_Count_VNF_SC_Ratio();
 			//m_pNetMan->m_hLog.m_TotActiveVNF+=((m_pNetMan->m_hLog.m_VNF_SC_Ratio)*(pEvent->m_hTime - hPrevLogTime));
 			m_pNetMan->m_hLog.m_Active_Node=m_pNetMan->DVNF_Count_Active_Nodes();
-			m_pNetMan->m_hLog.m_Active_wl=m_pNetMan->DVNF_Count_Active_WL();
+			vector <int> wls=m_pNetMan->DVNF_Count_Active_WL();
+			m_pNetMan->m_hLog.m_Active_wl=wls.back();
+			m_pNetMan->m_hLog.m_Active_wl_tree=wls.front();
 			m_pNetMan->m_hLog.m_Tot_Active_Node+=((m_pNetMan->m_hLog.m_Active_Node)*(pEvent->m_hTime - hPrevLogTime));
 			m_pNetMan->m_hLog.m_Tot_Active_wl+=((m_pNetMan->m_hLog.m_Active_wl)*(pEvent->m_hTime - hPrevLogTime));
+			m_pNetMan->m_hLog.m_Tot_Active_wl_tree+=((m_pNetMan->m_hLog.m_Active_wl_tree)*(pEvent->m_hTime - hPrevLogTime));
 			
 			hPrevLogTime = pEvent->m_hTime;
 			m_pNetMan->m_hLog.hPrevLog=hPrevLogTime;
@@ -993,9 +996,12 @@ this->m_pNetMan->m_hWDMNetPast.dump(cout);
 			//m_pNetMan->m_hLog.m_VNF_SC_Ratio=m_pNetMan->DVNF_Count_VNF_SC_Ratio();
 			//m_pNetMan->m_hLog.m_TotActiveVNF+=((m_pNetMan->m_hLog.m_VNF_SC_Ratio)*(pEvent->m_hTime - hPrevLogTime));
 			m_pNetMan->m_hLog.m_Active_Node=m_pNetMan->DVNF_Count_Active_Nodes();
-			m_pNetMan->m_hLog.m_Active_wl=m_pNetMan->DVNF_Count_Active_WL();
+			vector <int> wls=m_pNetMan->DVNF_Count_Active_WL();
+			m_pNetMan->m_hLog.m_Active_wl=wls.back();
+			m_pNetMan->m_hLog.m_Active_wl_tree=wls.front();
 			m_pNetMan->m_hLog.m_Tot_Active_Node+=((m_pNetMan->m_hLog.m_Active_Node)*(pEvent->m_hTime - hPrevLogTime));
 			m_pNetMan->m_hLog.m_Tot_Active_wl+=((m_pNetMan->m_hLog.m_Active_wl)*(pEvent->m_hTime - hPrevLogTime));
+			m_pNetMan->m_hLog.m_Tot_Active_wl_tree+=((m_pNetMan->m_hLog.m_Active_wl_tree)*(pEvent->m_hTime - hPrevLogTime));
 			m_pNetMan->m_hLog.m_Con_Link+=(pCon->m_Num_link)*(pEvent->m_hTime - hPrevLogTime);
 			m_pNetMan->m_hLog.bw_Con_hour[time]+=pCon->m_eBandwidth;
 
@@ -1291,6 +1297,7 @@ this->m_pNetMan->m_hWDMNetPast.dump(cout);
 
 			//LA:wavelength usaage
 			m_pNetMan->m_hLog.Wl_hour[time]=m_pNetMan->m_hLog.m_Active_wl/m_pNetMan->m_hLog.TotalSimulationTime;
+			m_pNetMan->m_hLog.Wl_hour_tree[time]=m_pNetMan->m_hLog.m_Tot_Active_wl_tree/m_pNetMan->m_hLog.TotalSimulationTime;
 			/* LA:commented:related to GB
 			m_pNetMan->m_hLog.PblockFront_hour[ind] = ((double)m_pNetMan->m_hLog.m_nBlockedMobileFrontConn + (double)m_pNetMan->m_hLog.m_nBlockedFixMobFrontConn)
 					/ ((double)m_pNetMan->m_hLog.m_nBlockedMobileFrontConn + (double)m_pNetMan->m_hLog.m_nBlockedFixMobFrontConn
@@ -2547,6 +2554,7 @@ void Simulator::saveStats(SimulationTime n, Log&m_hLog)
 
 	//LA:wavelength usaage
 	m_pNetMan->m_hLog.Wl_hour[time]=m_pNetMan->m_hLog.m_Tot_Active_wl/m_pNetMan->m_hLog.TotalSimulationTime;
+	m_pNetMan->m_hLog.Wl_hour_tree[time]=m_pNetMan->m_hLog.m_Tot_Active_wl_tree/m_pNetMan->m_hLog.TotalSimulationTime;
 	/*LA:commented->related to GB
 	m_hLog.PblockFront_hour[ind] = ((double)m_hLog.m_nBlockedMobileFrontConn + (double)m_hLog.m_nBlockedFixMobFrontConn)
 		/ ((double)m_hLog.m_nBlockedMobileFrontConn + (double)m_hLog.m_nBlockedFixMobFrontConn

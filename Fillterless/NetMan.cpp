@@ -10212,8 +10212,7 @@ void NetMan::BuildNFVNodesList()
 			
 	}	
 	#ifdef DEBUGB
-	//for(int i=0;i<NFVnode.size();i++)
-	//cout << "\nthis is the list of nfv nodes" << NFVnode[i]->getId() << endl;
+	
 	#endif // DEBUGB
 //return NFVnodes;
 }
@@ -10261,27 +10260,11 @@ bool NetMan :: DVNF_ProvisionSC(Connection * pCon, Circuit * pPCircuit){
 	success=this->DVNF_ProvisionSCHelper(pCon);
 	if(success){
 
-			//LA:not needed anymore as the issue is fixed
-		/*	for (itr=pCon->m_SC->SCPath.begin(); itr!=pCon->m_SC->SCPath.end(); itr++){
-				SimplexLink *pLinkcan = (SimplexLink*)(*itr);
-				if(find(CircuitPath.begin(),CircuitPath.end(),pLinkcan)==CircuitPath.end())
-					CircuitPath.push_back(pLinkcan);
-			}
-			pCon->m_SC->SCPath.clear();
-			pCon->m_SC->SCPath=CircuitPath;*/
-
 		bwsuccess=m_hWDMNet.DVNF_updateLinkBW(pCon);
 	}
 		if (success && bwsuccess){
 			DVNF_Dump_SC(pCon->m_SC);
-			/*LA: for the lighter version its not needed
-			list<AbstractLink*> CircuitPath;
-			list<AbstractLink*>::const_iterator itr ;
-			for (itr=pCon->m_SC->SCPath.begin(); itr!=pCon->m_SC->SCPath.end(); itr++){
-				SimplexLink *pLinkcan = (SimplexLink*)(*itr);
-				if(find(CircuitPath.begin(),CircuitPath.end(),pLinkcan)==CircuitPath.end())
-					CircuitPath.push_back(pLinkcan);
-			}*/
+		
 			pCon->m_eStatus = Connection::SETUP;
 			
 
@@ -10302,16 +10285,6 @@ bool NetMan :: DVNF_ProvisionSC(Connection * pCon, Circuit * pPCircuit){
 			pCon->m_pPCircuit = pPCircuit;
 			pCon->m_pBCircuit = NULL;
 
-			/*LA:not needed in the lighter version
-			//LA:build circuit 
-			DVNF_NewCircuit(*pPCircuit,CircuitPath,-1,pCon);
-			//LA:consume Bw
-			pPCircuit->Unprotected_setUpCircuit(this);
-			
-
-			// Assign connection routing time
-			pCon->m_dRoutingTime = pPCircuit->latency;
-			*/
 			//LA:count how many times VNFs are together 
 		if(count(pCon->m_SC->SCnodes.begin(),pCon->m_SC->SCnodes.end(),pCon->m_SC->SCnodes[0])==pCon->m_SC->SCnodes.size())
 			SameNodeVNFs++;
@@ -10373,12 +10346,15 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 		int dstlocalid=UNREACHABLE;
 		DstNodesID.clear();
 		AbstractNode* pVSrc, *pVDst;
-		DstNodesID=this->DVNF_BuildLocalNodes(pCon->m_SC);
-		for(int i=0;i<DstNodesID.size();i++)
+		/*DstNodesID=this->DVNF_BuildLocalNodes(pCon->m_SC);*/
+		//LA:having all nfv nodes as destinations
+		
+		/*for(int i=0;i<DstNodesID.size();i++)*/
+		for(int i=0;i<NFVCapnodes.size();i++)
 		{
-			dstlocalid=DstNodesID[i];
+			/*dstlocalid=DstNodesID[i];*/
 			pVSrc = m_hWDMNet.m_hNodeList.find(pCon->m_nSrc);
-			pVDst = m_hWDMNet.m_hNodeList.find(dstlocalid);
+			pVDst = m_hWDMNet.m_hNodeList.find(NFVCapnodes[i]->getId());
 			Dijkstracost= m_hWDMNet.Dijkstra(ShortestPathLA,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
 			if(Dijkstracost<DstCost){
 				DstCost=Dijkstracost;
@@ -11078,19 +11054,8 @@ bool NetMan:: DVNF_ActivateNewInst(VNF* VN,Connection * pCon)
 	pVSrc=m_hWDMNet.m_hNodeList.find(SrcID);
 	pVDst=m_hWDMNet.m_hNodeList.find(pCon->m_nDst);
 	
-	//pVSrc = m_hGraph.lookUpVertex(SrcID, Vertex::VT_Access_Out, -1);
-	//pVDst = m_hGraph.lookUpVertex(pCon->m_nDst, Vertex::VT_Access_In, -1);
 	SP_Cost= m_hWDMNet.Dijkstra(ShortestPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
-	//ShortestPath.erase(ShortestPath.begin());
-	//LA:for the lighter version is not needed
-	/*for (itr=ShortestPath.begin(); itr!=ShortestPath.end(); itr++){
-								SimplexLink *pLink = (SimplexLink*)(*itr);
-								if(pLink->m_hFreeCap<=CHANNEL_CAPACITY)
-									ShortestPathLA.push_back(pLink);
-							}
-							ShortestPath.clear();
-							ShortestPath=ShortestPathLA;
-							ShortestPathLA.clear();*/
+	
 	if(SP_Cost==UNREACHABLE){
 			if(DVNF_Reprovision(pCon,pVSrc,pVDst))
 				SP_Cost= m_hWDMNet.Dijkstra(ShortestPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
@@ -11169,41 +11134,19 @@ bool NetMan:: DVNF_ActivateNewInst(VNF* VN,Connection * pCon)
 					#ifdef DEBUGLA
 						cout<<"\nFound a NFV node on the shortest path with ID: "<<VDst->getId()<<endl;
 					#endif
-				//	}
-				//else
-				//	if(SPnodes.back()!=VDst){		//LA: to prevent inserting the same node twice
-				//	//???
-				//		if(find(pCon->m_SC->SCnodes.begin(),pCon->m_SC->SCnodes.end(),VDst)==pCon->m_SC->SCnodes.end())
-				//			SPnodes.push_back(VDst);
-				//		else{
-				//			if(VDst->getId()==pCon->m_nDst)
-				//				SPnodes.push_back(VDst);
-				//			}
-				//		#ifdef DEBUGLA	
-				//			cout<<"\nFound a NFV node on the shortest path with ID: "<<VDst->getId()<<endl;
-				//		#endif
-				//	}
-				//
+				
 				}else
 					VDst->hasCap=false;
 			}//end if vdst nfv node
-				//LA:dst is not added to this list but its not important for DC topology  bcaz dst is edge which is not NFVnode
-				/*LA:adding coreco to list for HetNet topology--> !!!messed up everything
-				if(VDst->m_pOXCNode->getId()==this->m_hWDMNet.DummyNode)
-					SPnodes.push_back(VDst->m_pOXCNode);*/
+				
 			}
-		//LA: if the list of nodes on the shortest path with enough capacity is empty
-	/*if(SPnodes.size()==0 && path->m_hCost==0 && SC->LastNode->CPURes>=(VN->CpuUsage)*(SC->NumofUsers))
-		SPnodes.push_back(SC->LastNode);*/
+	
 			
 			
 			
 		for(int k=0;k<SPnodes.size();k++)
 		{
-			//LA: alternatively **check if 50% of capacity is used---> set a flag for this node not to use it to insert vnf**		
-			//LA: if the node has enough capacity enable VNF on it 
-			//if(SPnodes[k]->CPURes>=VN->CpuUsage){
-				//EnableVNF()
+			
 
 				//LA:there is no node selected for this SC
 				if(pCon->m_SC->SCnodes.size()==0){
@@ -11215,17 +11158,7 @@ bool NetMan:: DVNF_ActivateNewInst(VNF* VN,Connection * pCon)
 					pVSrc = m_hWDMNet.m_hNodeList.find(SrcID);
 					pVDst = m_hWDMNet.m_hNodeList.find(SPnodes[k]->getId());
 					SP_Cost= m_hWDMNet.Dijkstra(SPnodes[k]->hFromSrcPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
-					//SPnodes[k]->hFromSrcPath.erase(SPnodes[k]->hFromSrcPath.begin());
-
-					//LA:for the lighter version is not needed
-					/*for (itr=SPnodes[k]->hFromSrcPath.begin(); itr!=SPnodes[k]->hFromSrcPath.end(); itr++){
-								SimplexLink *pLink = (SimplexLink*)(*itr);
-								if(pLink->m_hFreeCap<=CHANNEL_CAPACITY)
-									ShortestPathLA.push_back(pLink);
-							}
-							SPnodes[k]->hFromSrcPath.clear();
-							SPnodes[k]->hFromSrcPath=ShortestPathLA;
-							ShortestPathLA.clear();*/
+					
 					
 					
 					if(SP_Cost==UNREACHABLE){
