@@ -2902,3 +2902,66 @@ For node 9 CPU capacity is: 63.5005
 For node 23 CPU capacity is: 63.8998
 For node 6 CPU capacity is: 63.1883
 For node 44 CPU capacity is: 63.7815
+
+_______________________________________________________________________________
+ ***Date and Time:30-07-2020 07:42:33 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless52.txt
+Avg arrival rate: 0.5
+Avg holding time: 10
+Traffic (arr rate * holding time) [Erlang]: 5
+Running phase duration: 10000
+Max tot num of connections to be simulated: 800000
+
+Number of provisioned connections: 0
+Number of blocked connections: 0
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = -1.#IND
+
+BWD of provisioned connections : 0
+BWD of blocked connections : 0
+Blocking probability (connections; overall): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+NFV nodes (connections; overall): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Blocking probability (BWD; overall): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Latency violation (hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Wavelength usage (hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Wavelength usage for trees (hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ Number of connections(hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ bw of connections(hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ Number of latency violations: -1.#IND
+Blocking probability because of unreachability: 0/0
+Blocking probability because of nodes' capacity: 0/0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: -1.#IND
+Real avg arrival rate PER SECOND, PER NODE: -1.#IND
+
+TOTAL NUMBER OF Provisioned VNFS : 0Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 0
+ Average number of active NFV-nodes: -1.#IND
+ Average number of active NFV-nodes:(new simulation time) -1.#IND
+ Average number of active WLs:(new simulation time) -1.#IND
+ Average number of active WLs on trees:(new simulation time) -1.#IND
+ Average number of hops(Primary): -1.#IND
+ Average number of hops:(new simulation time) -1.#IND
+ Average number of VNFs activated: -1.#IND
+ Average number of VNFs activated:(new simulation time) -1.#IND
+ Average number of VNFs activated:(time contribuation at the end) -1.#IND
+ Average number of activated links for path of SC: -1.#IND
+ Total number of activated VNFs for 0 connection is : 0
+ carried load [BH BWD * time] = -1.#IND
+Simulation Time: 0
+
+Simulation Time (new): 0
+
+ Number of NFV-nodes: 0
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)10
+ Total hop count: 0
+
+ Total number of NFVnodes is:51
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: -1.#IND
+ Number of connections with VNFs on the same node: 0 Percentage: -1.#IND
+ Number of connections with VNFs on differnt nodes: 0 Percentage: -1.#IND

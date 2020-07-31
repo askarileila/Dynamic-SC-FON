@@ -10378,7 +10378,7 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 			Dijkstracost= m_hWDMNet.Dijkstra(ShortestPathLA,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
 			if(Dijkstracost<DstCost){
 				DstCost=Dijkstracost;
-				pCon->m_nDst=dstlocalid;
+				pCon->m_nDst=NFVCapnodes[i]->getId();
 			}
 		}
 	}

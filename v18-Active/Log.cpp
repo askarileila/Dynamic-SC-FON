@@ -38,11 +38,12 @@ m_nSegments(0), m_dPrimaryRc(0), m_nBlockedConDueToPath(0), UnAvLPMedia(0),delta
 groomingPossibilities(0), networkCost(0),
 peakNumLightpaths(0), peakNumActiveNodes(0), peakNetCost(0), peakNumActiveBBUs(0),
 NumOfConnections(0), transitoryTime(0),m_nBlockedConDueToCapacity(0),m_TotActiveVNF(0),m_TotActiveReal(0),TotalSimulationTime(0),hPrevLog(0),
-mhtime(0),m_VNF_SC_Ratio(0),m_Active_Node(0),m_Tot_Active_Node(0),m_Latency_Violated(0),m_CounterConn(0),m_Con_Link(0),m_Tot_Active_wl(0)
+mhtime(0),m_VNF_SC_Ratio(0),m_Active_Node(0),m_Tot_Active_Node(0),m_Latency_Violated(0),m_CounterConn(0),m_Con_Link(0),m_Tot_Active_wl(0),m_Tot_Active_wl_tree(0),m_Active_wl(0),m_Active_wl_tree(0)
 {
 	//LA:added to initialize these variables with zero-incase of no blocking results
 	std::fill_n(NFVNodes_hour, 24, 0);
 	std::fill_n(Wl_hour,24,0);
+	std::fill_n(Wl_hour_tree,24,0);
 	std::fill_n(Con_hour,24,0);
 	std::fill_n(bw_Con_hour,24,0);
 	std::fill_n(LatViol_hour,24,0);	
@@ -212,6 +213,7 @@ void Log::output() const
 	double NFVNodes_hour[24]={ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
 	double LatViol_hour[24]= {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
 	double Wl_hour[24]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
+	double Wl_hour_tree[24]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
 	double Con_hour[24]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
 	double bw_Con_hour[24]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
 	//double PblockFront_hour[24] = { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };

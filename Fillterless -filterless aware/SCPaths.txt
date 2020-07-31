@@ -1,0 +1,36 @@
+-----------------------------------------------------------
+ ***Date and Time:31-07-2020 07:52:40 AM*** 
+
+The number of users for this SC is 9
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+33->34, 34->35, 35->36, 36->37, 37->46, 
+Nodes of this service chain are: Src: 33, 46->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:31-07-2020 07:53:33 AM*** 
+
+The number of users for this SC is 5
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+23->24, 24->25, 25->26, 26->27, 27->46, 
+Nodes of this service chain are: Src: 23, 46->46-> ,Dst:46
+
+ Not grouped
+-----------------------------------------------------------
+ ***Date and Time:31-07-2020 08:02:17 AM*** 
+
+The number of users for this SC is 7
+The connection is: 
+The location of blocking is: NULL
+Service Chain:SmartFactory
+The links on the Path of provisioned ServiceChain is:
+30->29, 29->28, 28->27, 27->46, 
+Nodes of this service chain are: Src: 30, 46->46-> ,Dst:46
+
+ Not grouped

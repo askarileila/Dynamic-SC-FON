@@ -10358,7 +10358,7 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 			Dijkstracost= m_hWDMNet.Dijkstra(ShortestPathLA,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
 			if(Dijkstracost<DstCost){
 				DstCost=Dijkstracost;
-				pCon->m_nDst=dstlocalid;
+				pCon->m_nDst=NFVCapnodes[i]->getId();
 			}
 		}
 	}
@@ -13309,7 +13309,7 @@ int NetMan:: DVNF_Count_Active_Nodes()
 }
 vector <int> NetMan:: DVNF_Count_Active_WL()
 {
-	int ratio_Tree,ratio_Link=0;
+	int ratio_Tree=0,ratio_Link=0;
 	list<AbstractLink*>::const_iterator itr ;
 	AbstractLink* pLink;
 	vector <int> wl_Consumption;

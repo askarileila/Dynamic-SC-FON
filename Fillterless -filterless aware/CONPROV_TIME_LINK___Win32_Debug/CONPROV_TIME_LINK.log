@@ -1,17 +1,49 @@
-﻿Build started 14/07/2020 10:52:10.
-     1>Project "G:\My data\V18-Filterless-OTN\Fillterless -filterless aware\CONPROV_TIME_LINK.vcxproj" on node 2 (build target(s)).
+﻿Build started 31/07/2020 08:02:14.
+     1>Project "G:\My data\V18-Filterless-OTN\Dynamic-SC-FON\Fillterless -filterless aware\CONPROV_TIME_LINK.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating ".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching ".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.unsuccessfulbuild".
        ClCompile:
          All outputs are up-to-date.
        Link:
-         All outputs are up-to-date.
-         CONPROV_TIME_LINK.vcxproj -> G:\My data\V18-Filterless-OTN\Fillterless -filterless aware\.\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.exe
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\My data\V18-Filterless-OTN\Dynamic-SC-FON\Fillterless -filterless aware\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.lib" /MACHINE:X64 .\CONPROV_TIME_LINK___Win32_Debug\AbsPath.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\AbstractGraph.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\AbstractPath.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\BinaryHeap.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Channel.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Circuit.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Connection.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\ConnectionDB.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\ConProvisionMain.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Event.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\EventList.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Graph.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Lightpath.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Lightpath_Seg.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\LightpathDB.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Log.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\MappedLinkList.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\NetMan.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\OchException.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\OchMemDebug.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\OchObject.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\OXCNode.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\ServiceChain.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\SimplexLink.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Simulator.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Stat.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\TopoReader.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\UniFiber.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\Vertex.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\VNF.obj
+         .\CONPROV_TIME_LINK___Win32_Debug\WDMNetwork.obj
+         CONPROV_TIME_LINK.vcxproj -> G:\My data\V18-Filterless-OTN\Dynamic-SC-FON\Fillterless -filterless aware\.\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.exe;#1" /manifest .\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file ".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.unsuccessfulbuild".
          Touching ".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.lastbuildstate".
-     1>Done Building Project "G:\My data\V18-Filterless-OTN\Fillterless -filterless aware\CONPROV_TIME_LINK.vcxproj" (build target(s)).
+     1>Done Building Project "G:\My data\V18-Filterless-OTN\Dynamic-SC-FON\Fillterless -filterless aware\CONPROV_TIME_LINK.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.55
+Time Elapsed 00:00:00.82

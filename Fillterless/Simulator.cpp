@@ -178,7 +178,7 @@ bool Simulator::initialize(UINT nCon, double dArrival,
 	for (itr = this->m_pNetMan->m_hWDMNet.m_hNodeList.begin(); itr != this->m_pNetMan->m_hWDMNet.m_hNodeList.end(); itr++)
 	{
 		pOXCNode = (OXCNode*)(*itr);
-		if(!(pOXCNode->m_NFVnode))
+		/*if(!(pOXCNode->m_NFVnode))*/
 			PotentialSrcs.push_back(pOXCNode);		
 	}
 
