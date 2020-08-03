@@ -10466,8 +10466,8 @@ cout << "->DVNF_ProvisionVNF" << endl;
 	pVDst=m_hWDMNet.m_hNodeList.find(pCon->m_nDst);
 	//m_hWDMNet.YenHelperWP(ForYen,pVSrc,pVDst,1,AbstractGraph::LCF_ByOriginalLinkCost);
 	SP_Cost= m_hWDMNet.Dijkstra(ShortestPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
-	if(SP_Cost==0 && pCon->m_nSrc==SrcID)
-		cin.get();
+//	if(SP_Cost==0 && pCon->m_nSrc==SrcID&& NFVCapnodes.size()<52)
+	//	cin.get();
 	if(SP_Cost!=UNREACHABLE){
 	//LA: if possible put it on dst
 		if(((OXCNode*)pVDst)->CPURes>=(VN->CpuUsage)*(pCon->m_SC->NumofUsers)){

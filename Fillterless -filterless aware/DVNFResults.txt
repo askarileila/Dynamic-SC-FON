@@ -2965,3 +2965,97 @@ Simulation Time (new): 0
  Reprovisioning Penalty (number of connections moved): 0 Percentage: -1.#IND
  Number of connections with VNFs on the same node: 0 Percentage: -1.#IND
  Number of connections with VNFs on differnt nodes: 0 Percentage: -1.#IND
+
+_______________________________________________________________________________
+ ***Date and Time:01-08-2020 11:38:19 PM*** 
+
+INPUT DATA:
+
+Network topology: TimFilterless52.txt
+Avg arrival rate: 0.5
+Avg holding time: 10
+Traffic (arr rate * holding time) [Erlang]: 5
+Running phase duration: 10000
+Max tot num of connections to be simulated: 800000
+
+Number of provisioned connections: 916106
+Number of blocked connections: 157926
+Blocking Probability (in terms of connections) = #Blocked Connections / #Total Connections = 0.14704
+
+BWD of provisioned connections : 687007600
+BWD of blocked connections : 118368300
+Blocking probability (connections; overall): 0.09415 0.086025 0.0772167 0.0724143 0.0693444 0.0664727 0.0643167 0.0621643 0.0635375 0.0691842 0.0960962 0.109206 0.116679 0.121491 0.126388 0.131784 0.135769 0.13823 0.1394 0.138866 0.141423 0.14583 0.148287 0.147239 
+NFV nodes (connections; overall): 29.8327 27.7834 25.6804 24.884 24.3724 24.0408 23.4381 22.8017 23.2073 23.9974 25.7926 27.139 28.2602 29.2197 30.0695 30.918 31.6668 32.2313 32.7047 32.8728 33.3719 33.9586 34.4399 34.3584 
+Blocking probability (BWD; overall): 0.0947648 0.0864634 0.0775917 0.0727736 0.0695288 0.0665263 0.064343 0.0621944 0.0635572 0.0692748 0.0961907 0.109275 0.11668 0.121478 0.126334 0.13173 0.135696 0.138162 0.139379 0.138836 0.14137 0.145774 0.148208 0.147174 
+Latency violation (hourly): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Wavelength usage (hourly): 9.76358 9.24248 8.51077 8.20768 8.06398 7.90481 7.7024 7.46361 7.58437 7.89407 8.74486 9.3674 9.87797 10.2795 10.6552 11.076 11.4301 11.7026 11.916 11.9489 12.2174 12.6981 13.209 13.3683 
+Wavelength usage for trees (hourly): 306.686 291.848 271.183 262.229 257.378 252.497 246.518 240.848 244.673 252.65 267.987 279.521 289.442 297.562 304.499 311.491 317.763 322.462 326.538 328.299 332.359 337.048 340.85 340.407 
+ Number of connections(hourly): 28302 20405 15829 15361 20190 15663 12198 15643 23123 31396 73131 64938 57027 56752 65126 73767 68766 64589 55910 41458 72375 91571 80610 31422 
+ bw of connections(hourly): 1.8823e+007 1.39474e+007 1.10663e+007 1.07743e+007 1.39506e+007 1.1002e+007 8.6298e+006 1.08487e+007 1.57629e+007 2.07542e+007 4.4419e+007 3.9893e+007 3.54722e+007 3.53546e+007 4.01586e+007 4.49039e+007 4.21014e+007 3.9594e+007 3.48342e+007 2.65773e+007 4.40384e+007 5.45882e+007 4.87676e+007 2.0746e+007 
+ Number of latency violations: 0
+Blocking probability because of unreachability: 1
+Blocking probability because of nodes' capacity: 0
+Total number of lightpaths activated during the simulation: 0
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 12.68
+Real avg arrival rate PER SECOND, PER NODE: 0.248628
+
+TOTAL NUMBER OF Provisioned VNFS : 3419841Confidence Percentage: 0.95
+ Total Number of active NFV-nodes: 1.59834e+006
+ Average number of active NFV-nodes: 18.4993
+ Average number of active NFV-nodes:(new simulation time) 34.3445
+ Average number of active WLs:(new simulation time) 13.3904
+ Average number of active WLs on trees:(new simulation time) 340.301
+ Average number of hops(Primary): 0
+ Average number of hops:(new simulation time) 0
+ Average number of VNFs activated: 44.9153
+ Average number of VNFs activated:(new simulation time) 83.3868
+ Average number of VNFs activated:(time contribuation at the end) 0
+ Average number of activated links for path of SC: 0.589046
+ Total number of activated VNFs for 1.07403e+006 connection is : 143
+ carried load [BH BWD * time] = 196.874
+Simulation Time: 24
+
+Simulation Time (new): 12.9273
+
+ Number of NFV-nodes: 31
+ Channel Capacity: 1000 Mbps
+ number of channels:(WaveLength)10
+ Total hop count: 0
+
+ Total number of NFVnodes is:51
+
+ Reprovisioning Penalty (number of connections moved): 0 Percentage: 0
+ Number of connections with VNFs on the same node: 916106 Percentage: 0.85296
+ Number of connections with VNFs on differnt nodes: 0 Percentage: 0
+For node 46 CPU capacity is: 2.14748e+009
+For node 39 CPU capacity is: 23.8127
+For node 40 CPU capacity is: 23.8439
+For node 21 CPU capacity is: 23.719
+For node 7 CPU capacity is: 23.4815
+For node 1 CPU capacity is: 23.719
+For node 5 CPU capacity is: 23.9124
+For node 6 CPU capacity is: 23.719
+For node 29 CPU capacity is: 23.7063
+For node 24 CPU capacity is: 23.5941
+For node 50 CPU capacity is: 23.5629
+For node 26 CPU capacity is: 23.725
+For node 3 CPU capacity is: 23.6875
+For node 11 CPU capacity is: 23.8127
+For node 49 CPU capacity is: 23.8122
+For node 31 CPU capacity is: 23.7815
+For node 35 CPU capacity is: 23.7502
+For node 51 CPU capacity is: 23.7815
+For node 23 CPU capacity is: 23.4315
+For node 45 CPU capacity is: 23.6938
+For node 47 CPU capacity is: 23.8873
+For node 17 CPU capacity is: 23.9249
+For node 20 CPU capacity is: 23.8998
+For node 27 CPU capacity is: 23.5317
+For node 12 CPU capacity is: 23.9124
+For node 48 CPU capacity is: 23.7746
+For node 10 CPU capacity is: 23.7063
+For node 8 CPU capacity is: 23.5938
+For node 14 CPU capacity is: 23.8998
+For node 28 CPU capacity is: 23.9124
+For node 34 CPU capacity is: 23.6878

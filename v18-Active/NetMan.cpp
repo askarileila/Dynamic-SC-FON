@@ -10269,7 +10269,10 @@ bool NetMan :: DVNF_ProvisionSC(Connection * pCon, Circuit * pPCircuit){
 			pCon->m_SC->SCPath.clear();
 			pCon->m_SC->SCPath=CircuitPath;*/
 
-		bwsuccess=m_hWDMNet.DVNF_updateLinkBW(pCon);
+		if(pCon->m_nSrc==pCon->m_nDst)
+			bwsuccess=true;
+		else
+		    bwsuccess=m_hWDMNet.DVNF_updateLinkBW(pCon);
 	}
 	if (success && bwsuccess){
 		DVNF_Dump_SC(pCon->m_SC);
@@ -11618,7 +11621,8 @@ inline void NetMan::DVNF_Deprovision(Connection *pCon)
 #ifdef DEBUGLA
 	cout << "-> DVNF_Deprovision" << endl;
 #endif 
-	m_hWDMNet.DVNF_deprovLinkBW(pCon);
+	if(pCon->m_nSrc!=pCon->m_nDst)
+     	m_hWDMNet.DVNF_deprovLinkBW(pCon);
 	//LA:for the reprovisioned connection do not touch the SCpath and SCnodes
 	if(!pCon->Reprov){
 		DVNF_Deprovision_Helper(pCon);

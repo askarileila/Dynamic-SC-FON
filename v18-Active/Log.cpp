@@ -278,6 +278,8 @@ void Log::output() const
 	double Pblock_unreach = unreachConn_block / conn_block;
 	double Pblock_latency = latencyConn_block / conn_block;
 	double Pblock_capacity= capacityConn_block/conn_block;
+	if((unreachConn_block + latencyConn_block+capacityConn_block) == conn_block)
+		cin.get();
 	assert((unreachConn_block + latencyConn_block+capacityConn_block) == conn_block); //LA:added capacityconnblock
 	double Pblock_Bwd = bwd_block / tot_bwd;
 	//double Pblock_frontBwd = frontBwd_block / (frontBwd_block + frontBwd_prov);
