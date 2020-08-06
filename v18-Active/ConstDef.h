@@ -11,7 +11,7 @@
 		//LA:as I can't have less than 50mbps for bwgrandularity i increase channel capacity 10 times(768->7680)
 									//LA:in this way the bw requirements for all SC is set to 5mbps
 #define CHANNEL_CAPACITY 1000		//LA:in mbps (40G)
-#define AB_LINK_CAPACITY 10000	//LA:added to support lighter version
+#define AB_LINK_CAPACITY 12000	//LA:added to support lighter version
 #define BWDGRANULARITY OC6			//-B: bandwidth granularity -> amount of bandwidth requested by each mobile connection
 									//-> needed for BBUReadTopoHelper to set channel capacity and to set backhaul bwd of macro cell
 #define MAX_Con_Moved 5		//LA:max number of connection we are allowed to move to re-provision a connection

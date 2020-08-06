@@ -9,7 +9,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommandArguments>Leila TimFilterless2.txt Dynamic_VNF 200000 1 1 30 0.00001 0 DVNF 0.005 1 1</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>Leila TimFilterless52.txt Dynamic_VNF 200000 1 1 30 0.00001 0 DVNF 0.005 5 1</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

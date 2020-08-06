@@ -10327,6 +10327,7 @@ bool NetMan :: DVNF_ProvisionSC(Connection * pCon, Circuit * pPCircuit){
 		pCon->log(m_runLog);
 		m_hLog.m_TotActiveReal+=m_NumActVNF;		
 		TotSimTime+=pCon->m_dHoldingTime;
+		DVNF_Dump_SC(pCon->m_SC);
 		DVNF_Deprovision_Helper(pCon);
 		this->m_hWDMNet.resetLinks();
 		pCon->m_SC->SCPath.clear();
@@ -10411,13 +10412,13 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 
 					latencySuccess=true;
 			}
-			else{
+			/*else{
 				#ifdef DEBUGLA
 				cout<<"\nLatency requirements is not satisfied"<<endl;
 				#endif
 
 				latencySuccess=DVNF_GroupingVNF(pCon->m_SC,pCon);			
-			}
+			}*/
 	
 	}else{
 			 
@@ -10492,7 +10493,8 @@ cout << "\nProvisioning VNF of type :" << VN->VNFName<< endl;
 	//LA:if dst is already among the nodes in scpath should put rest of the VNFs on that node
 	if(pCon->m_SC->SCnodes.size()!=0 && pCon->m_SC->LastNode->getId()==pCon->m_nDst && (pCon->m_SC->LastNode->CPURes)>=(VN->CpuUsage)*(pCon->m_SC->NumofUsers)){
 		candidatenode=pCon->m_SC->LastNode;
-		
+		if(pCon->m_nSrc==pCon->m_nDst)
+			candidatenode=(OXCNode*)(m_hWDMNet.m_hNodeList.find(pCon->m_nDst));
 		//VNF ENABLE
 		DVNF_EnableVNF(candidatenode, VN,pCon->m_SC);
 				return true;
@@ -10917,12 +10919,13 @@ cout << "\nProvisioning VNF of type :" << VN->VNFName<< endl;
 							}
 						 }
 
-
 				//EnableVNf()
 				if(!provisioned && candidatenode->NFVnSrcReachCost!=UNREACHABLE){
 					DVNF_EnableVNF(candidatenode, VN,pCon->m_SC);
 					return true;
 				}
+				else
+					status=DVNF_ActivateNewInst(VN,pCon);
 				//cin.get();
 				
 					}

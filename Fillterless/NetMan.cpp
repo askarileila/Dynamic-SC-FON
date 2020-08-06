@@ -10960,10 +10960,12 @@ cout << "\nProvisioning VNF of type :" << VN->VNFName<< endl;
 						}
 
 				//EnableVNf()
-				if(!provisioned){
+				if(!provisioned && candidatenode->NFVnSrcReachCost!=UNREACHABLE){
 					DVNF_EnableVNF(candidatenode, VN,pCon->m_SC);
 					return true;
 				}
+				else
+					status=DVNF_ActivateNewInst(VN,pCon);
 				//cin.get();
 				
 					}
