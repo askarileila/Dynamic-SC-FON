@@ -1777,7 +1777,8 @@ bool AbstractGraph:: DVNF_updateLinkBW(  Connection* pCon)
 	list<AbstractLink*>::const_iterator itr;
 	AbstractLink* Link;
 	vector<int> FreeWl;
-	Link=pCon->m_SC->SCPath.back();
+	if (pCon->m_SC->SCPath.size()>0)
+	   Link=pCon->m_SC->SCPath.back();
 
 	for (itr=pCon->m_SC->SCPath.begin(); itr!=pCon->m_SC->SCPath.end(); itr++){
 		for(int i=0;i<(*itr)->abs_m_nW;i++){

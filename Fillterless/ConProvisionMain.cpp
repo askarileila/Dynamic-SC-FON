@@ -532,6 +532,7 @@ cout << "\nAverage latency: ";
 			outfile<<"For node "<<hNetMan.VNFNodes[K]->getId()<<" CPU capacity is: "<<hNetMan.VNFNodes[K]->CPURes<<endl;
 		}
 		
+		outfile<<"\n Number of local SCs: 3"<<endl;
 		outfile.close();
 
 		/*LA:iteration

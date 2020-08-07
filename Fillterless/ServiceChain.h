@@ -53,7 +53,7 @@ public:
 	//MappedLinkList <UINT, ServiceChain*> SCnode;
 	void SetNumberOfUsers();		//Sets number of users randomy in a range from 1000 to 4000
 	std::string GetServiceChainName();
-
+	
 };
 
 };

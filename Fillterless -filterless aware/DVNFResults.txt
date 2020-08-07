@@ -3062,7 +3062,7 @@ For node 34 CPU capacity is: 23.6878
 
 _______________________________________________________________________________
  ***Date and Time:05-08-2020 06:54:47 PM*** 
-
+2 local SCs
 INPUT DATA:
 
 Network topology: TimFilterless52.txt
