@@ -93,7 +93,7 @@ void ServiceChain::SetSCType ()
 		case 3:
 		{
 			SCtype=SmartFactory;
-			local=false;
+			local=true;
 			BwReq=100;
 			latency=0.001; 
 			LatencyClass="Stringent";
