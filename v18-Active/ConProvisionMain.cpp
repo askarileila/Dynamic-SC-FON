@@ -422,6 +422,11 @@ cout << "\nAverage latency: ";
 		{
 			outfile << hNetMan.m_hLog.Wl_hour[oo] << " ";
 		}
+			outfile << "\nWavelength usage for trees (hourly): ";
+		for (int oo = 0; oo < 24; oo++)
+		{
+			outfile << hNetMan.m_hLog.Wl_hour_tree[oo] << " ";
+		}
 		outfile << "\n Number of connections(hourly): ";
 		for (int oo = 0; oo < 24; oo++)
 		{
@@ -492,6 +497,8 @@ cout << "\nAverage latency: ";
 		outfile<<"\n Average number of active NFV-nodes: "<<hNetMan.m_hLog.m_Tot_Active_Node/hNetMan.m_hLog.m_hSimTimeSpan ;
 		outfile<<"\n Average number of active NFV-nodes:(new simulation time) "<<hNetMan.m_hLog.m_Tot_Active_Node/hNetMan.m_hLog.TotalSimulationTime;
 		outfile<<"\n Average number of active WLs:(new simulation time) "<<hNetMan.m_hLog.m_Tot_Active_wl/hNetMan.m_hLog.TotalSimulationTime;
+		outfile<<"\n Average number of active WLs on trees:(new simulation time) "<<hNetMan.m_hLog.m_Tot_Active_wl_tree/hNetMan.m_hLog.TotalSimulationTime;
+
 
 		outfile<<"\n Average number of hops(Primary): "<<hSimulator.m_pNetMan->m_hLog.m_nPHopDistance/hNetMan.m_hLog.m_hSimTimeSpan ;
 	//	outfile<<"\n Average number of hops(Backup): "<<hSimulator.m_pNetMan->m_hLog.m_nBHopDistance/hNetMan.m_hLog.m_hSimTimeSpan ;
@@ -525,6 +532,7 @@ cout << "\nAverage latency: ";
 			outfile<<"For node "<<hNetMan.VNFNodes[K]->getId()<<" CPU capacity is: "<<hNetMan.VNFNodes[K]->CPURes<<endl;
 		}
 		
+		outfile<<"\n Number of local SCs: 3"<<endl;
 		outfile.close();
 
 		/*LA:iteration
