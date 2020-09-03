@@ -10433,6 +10433,190 @@ if (!latencySuccess)
 
 }
 
+bool NetMan :: DVNF_ProvisionVNF_Filterless(VNF * VN, Connection * pCon){
+	
+#ifdef DEBUGLA
+cout << "->DVNF_ProvisionVNF" << endl;
+#endif 
+	
+	list  <AbsPath*> ForYen;
+	LINK_COST SP_Cost=UNREACHABLE,minCapCost=UNREACHABLE,SP_CostDst=UNREACHABLE,SP_CostSrc=UNREACHABLE;
+	AbstractNode *pVSrc, *pVDst;
+	UINT SrcID;
+	list<AbstractLink*>::const_iterator itr ;
+	list<AbstractLink*> ShortestPath;
+	vector <OXCNode*> SPnodes,ClosestNodes,TempNodes;
+	//vector <OXCNode*> NFVCapnodes;
+	UINT counter=0;
+	OXCNode *CapCandNode=NULL;
+	
+	/*NFVCapnodes=BuildNFVNodesList();*/
+	//LA:If this is the first vnf on the SC to be provisiond source is src of connection otherwise src is last nfv node
+	if(pCon->m_SC->SCnodes.size()==0)
+		SrcID=pCon->m_nSrc;
+	else
+		SrcID=pCon->m_SC->LastNode->getId();
+	
+	//LA:calculate shortest path between src and dst and put VNF on the first nfv node on the shortest path if it has enough capacity
+	pVSrc=m_hWDMNet.m_hNodeList.find(SrcID);
+	pVDst=m_hWDMNet.m_hNodeList.find(pCon->m_nDst);
+	//m_hWDMNet.YenHelperWP(ForYen,pVSrc,pVDst,1,AbstractGraph::LCF_ByOriginalLinkCost);
+	SP_Cost= m_hWDMNet.Dijkstra(ShortestPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
+//	if(SP_Cost==0 && pCon->m_nSrc==SrcID&& NFVCapnodes.size()<52)
+	//	cin.get();
+	if(SP_Cost!=UNREACHABLE){
+	//LA: if possible put it on dst
+		if(((OXCNode*)pVDst)->CPURes>=(VN->CpuUsage)*(pCon->m_SC->NumofUsers)){
+			((OXCNode*)pVDst)->hFromSrcPath=ShortestPath;
+		DVNF_EnableVNF(((OXCNode*)pVDst),VN,pCon->m_SC);
+					((OXCNode*)pVDst)->hFromSrcPath.clear();
+					return true;
+		}
+			
+	//LA:if it's not the first VNF to provision put src in SPnodes also
+	OXCNode* VSrc = (OXCNode*)pVSrc;	
+	if(VSrc->m_NFVnode && VSrc->CPURes>=(VN->CpuUsage)*(pCon->m_SC->NumofUsers) && pCon->m_SC->LastNode!=NULL)
+				SPnodes.push_back(VSrc);
+
+		for (itr=ShortestPath.begin(); itr!=ShortestPath.end(); itr++){
+			AbstractLink *pLink = (*itr);
+			
+			OXCNode * VDst=(OXCNode*)pLink->m_pDst;
+		
+			if(VDst->m_NFVnode){
+				if((VDst->CPURes)>=(VN->CpuUsage)*(pCon->m_SC->NumofUsers)){		//if it has enough capacity add it to the list otherwise no
+					SPnodes.push_back(VDst);
+								
+					#ifdef DEBUGLA
+					cout<<"\nFound a NFV node on the shortest path with ID: "<<VDst->getId()<<endl;
+					#endif
+			
+			
+				}
+			}//end if vdst nfv node
+		}
+			for(int k=0;k<SPnodes.size();k++)
+		{
+				#ifdef DEBUGLA
+					cout<<"\n Trying to Provision first VNF of Service chain "<<pCon->m_SC->GetServiceChainName()<<" on the node "<<SPnodes[k]->getId()<<endl;
+				#endif
+				SPnodes[k]->hFromSrcPath.clear();
+				//LA:7- add the path to SCpath
+				pVSrc = m_hWDMNet.m_hNodeList.find(SrcID);
+				pVDst = m_hWDMNet.m_hNodeList.find(SPnodes[k]->getId());
+				SP_CostSrc= m_hWDMNet.Dijkstra(SPnodes[k]->hFromSrcPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
+			
+				if(SP_CostSrc==UNREACHABLE)
+						continue;
+										
+					
+
+					//LA: if it's last vnf to provision add the shortest path from that node to dst to SCpath 
+					if(this->VNFCounter==(pCon->m_SC->LengthOfSCs)-1){
+						SPnodes[k]->htoDstPath.clear();
+						pVSrc = m_hWDMNet.m_hNodeList.find(SPnodes[k]->getId());
+						pVDst = m_hWDMNet.m_hNodeList.find(pCon->m_nDst);
+						SP_CostDst=  m_hWDMNet.Dijkstra(SPnodes[k]->htoDstPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
+						if(SP_CostDst==UNREACHABLE)
+							continue;
+					}
+		
+					//enable VNF
+					DVNF_EnableVNF(SPnodes[k],VN,pCon->m_SC);
+					SPnodes[k]->hFromSrcPath.clear();
+					return true;
+			}
+	}
+			
+			//LA: if the list of nodes on the shortest path with enough capacity is empty
+			
+			/*	if(SPnodes.size()==0 || SP_Cost==UNREACHABLE )
+			{*/
+				for(int l=0;l<NFVCapnodes.size();l++){
+				
+					NFVCapnodes[l]->hFromSrcPath.clear();
+					NFVCapnodes[l]->htoDstPath.clear();
+
+					if((NFVCapnodes[l]->CPURes)>((VN->CpuUsage)*(pCon->m_SC->NumofUsers)))
+					{
+							
+						pVSrc = m_hWDMNet.m_hNodeList.find(SrcID);
+						pVDst = m_hWDMNet.m_hNodeList.find(NFVCapnodes[l]->getId());
+						NFVCapnodes[l]->NFVnReachCost=  m_hWDMNet.Dijkstra(NFVCapnodes[l]->hFromSrcPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
+						
+						//LA:calculate the shortest path between this node and dst
+						pVSrc = m_hWDMNet.m_hNodeList.find(NFVCapnodes[l]->getId());
+						pVDst = m_hWDMNet.m_hNodeList.find(pCon->m_nDst);
+						NFVCapnodes[l]->NFVnReachCost+= m_hWDMNet.Dijkstra(NFVCapnodes[l]->htoDstPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
+						
+
+							if(NFVCapnodes[l]->NFVnReachCost>=UNREACHABLE){
+								counter++;
+								continue;
+					}
+
+					//LA:choose closest nodes
+					if(NFVCapnodes[l]->NFVnReachCost<minCapCost  ){
+							minCapCost=NFVCapnodes[l]->NFVnReachCost;
+							TempNodes.push_back(NFVCapnodes[l]);
+						}
+						
+					}//end if hascap
+					/*	NFVCapnodes[l]->hFromSrcPath.clear();
+						NFVCapnodes[l]->htoDstPath.clear();*/
+			
+				}//end for
+
+				for(int i=0;i<TempNodes.size();i++){
+					if (TempNodes[i]->NFVnReachCost<=minCapCost)
+						ClosestNodes.push_back(TempNodes[i]);
+					}
+					
+				if(ClosestNodes.size()!=0)
+				CapCandNode=ClosestNodes[0];
+			
+				if (CapCandNode==NULL){
+					if(counter>=NFVCapnodes.size()/2)
+						pCon->m_bBlockedDueToUnreach=true;
+					else
+					pCon->m_bBlockedDueToCapacity=true;
+
+					pCon->m_eStatus = Connection::DROPPED;
+					return false;
+				}
+				else
+				{	
+					//LA: if it's last vnf to provision add the shortest path from that node to dst to SCpath 
+					if(this->VNFCounter==(pCon->m_SC->LengthOfSCs)-1){
+						CapCandNode->htoDstPath.clear();
+						pVSrc =  m_hWDMNet.m_hNodeList.find(CapCandNode->getId());
+						pVDst =  m_hWDMNet.m_hNodeList.find(pCon->m_nDst);
+						SP_Cost= m_hWDMNet.Dijkstra(CapCandNode->htoDstPath,pVSrc,pVDst,AbstractGraph::LCF_ByOriginalLinkCost);
+						}
+			
+						if(SP_Cost==UNREACHABLE){
+							pCon->m_bBlockedDueToUnreach = true;
+							#ifdef DEBUGLA
+								cout << " -> Blocked connection due to unreachability" << endl;
+							#endif 
+							return false;
+						}
+				
+				
+					DVNF_EnableVNF(CapCandNode,VN,pCon->m_SC);
+					CapCandNode->htoDstPath.clear();
+					return true;
+				
+				}//end else :CapcandNode!=0				
+						
+			//}//end if(SPnodes.size()==0)
+	
+	pCon->m_bBlockedDueToUnreach=true;
+	pCon->m_eStatus = Connection::DROPPED;
+	return false;
+	
+
+}
 
 bool NetMan :: DVNF_ProvisionVNF(VNF * VN, Connection * pCon){
 	
