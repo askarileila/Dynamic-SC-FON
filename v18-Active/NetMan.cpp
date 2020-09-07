@@ -10361,6 +10361,7 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 	//LA:Assign bw to the circuit
 	double bwd;
 	bwd = pCon->m_eBandwidth;
+	invalidateSimplexLinkDueToCapOrStatus(bwd);
 
 	//LA:**FEATURE-MIXED SC: if SC can be served locally find best dst
  		if(pCon->m_SC->local){
@@ -10389,7 +10390,7 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 		
 			
 		
-	invalidateSimplexLinkDueToCapOrStatus(bwd);
+
 
 	m_hGraph.numberOfChannels = m_hWDMNet.numberOfChannels;
 	m_hGraph.numberOfNodes = m_hWDMNet.numberOfNodes;
@@ -10398,7 +10399,8 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 	for (int i=0;i<pCon->m_SC->LengthOfSCs && bSuccess;i++)
 	{
 		VNF *VN= pCon->m_SC->VNFList[i];
-		bSuccess=DVNF_ProvisionVNF(VN,pCon);
+		//bSuccess=DVNF_ProvisionVNF(VN,pCon);
+		bSuccess=DVNF_ProvisionVNF_Filterless(VN,pCon);
 	} 
 			
 	//LA: LAST STEP: Check latency requirements of SC

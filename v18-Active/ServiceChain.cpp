@@ -72,7 +72,7 @@ void ServiceChain::SetSCType ()
 		case 2:
 		{	//SCtype=VideoStreaming;
 			SCtype=AugmentedReality;
-			local=true;
+			local=false;
 			//BwReq=4;
 			BwReq=100;
 			//latency=0.1; //LA:0.1
@@ -151,7 +151,7 @@ void ServiceChain::SetSCType ()
 		case 6:
 		{
 			SCtype=VideoStreaming;
-			local=true;
+			local=false;
 			BwReq=4;
 			latency=0.1; //LA:0.1
 			LatencyClass="Relaxed";
