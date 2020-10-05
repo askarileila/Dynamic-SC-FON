@@ -10582,7 +10582,7 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 	//LA:Assign bw to the circuit
 	double bwd;
 	bwd = pCon->m_eBandwidth;
-
+	invalidateSimplexLinkDueToCapOrStatus(bwd);
 	//LA:**FEATURE-MIXED SC: if SC can be served locally find best dst
  		if(pCon->m_SC->local){
 		vector <int> DstNodesID;
@@ -10615,7 +10615,7 @@ bool NetMan :: DVNF_ProvisionSCHelper(Connection * pCon)
 		m_hGraph.preferWavelChannel();
 			
 	
-	invalidateSimplexLinkDueToCapOrStatus(bwd);
+	
 	//invalidateSimplexLinkDueToFreeStatus (bwd);
 	m_hGraph.numberOfChannels = m_hWDMNet.numberOfChannels;
 	m_hGraph.numberOfNodes = m_hWDMNet.numberOfNodes;
