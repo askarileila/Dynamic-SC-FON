@@ -1,0 +1,67 @@
+//generated with matlab script 'script_for_plotting_multistageRingSpur' in folder 'Evolved'
+//original file 'instance4_N80_graph_30trees_15rings_14x14km.txt' + 3 bidirectional links: id 164 to 169
+NumberOfWavelengths = 8;
+ChannelCapacity = 128; //128*BWDGRANULARITY = 768 //SHOULD BE NO USED ANYMORE
+//LA
+//Num of trees = 40; //-B: added by me!!!!!!!!!!!!
+//Num of rings = 15; //-B: added by me!!!!!!!!!!!!
+NumberOfTx = 1;
+NumberOfRx = 1;
+NumberOfDataCenter = 0;
+TxScale = 1.0;	// NumberOfTx = Nodal Degree * TxScale
+NumberOfOXCNodes = 20;
+NumberOfUniFibers = 64; //LA: 32 links
+
+// Format: 
+//<OXCNodeId, WConvertible(0,F|1,P|2,N), GroomingCap(0,F|1,P|2,N), Tx, Rx, NodeFlag(1,C|2,A|3,E), NFV_Enable(0,NO|1,Yes)>
+//Tx (Rx) is valid only if NumberOfTx (NumberOfRx) is greater than 0
+//LA:   NodeFlag is 1 (core), 2 (Aggregate) or 3 (edge)
+//LA: no groomingcap (=2) and no WConvertible (=2)
+//LA: just core and aggregate nodes are NFV enabled nodes
+//LA: source and destination of Service Chain requests are among edge nodes
+OXCNodes = [
+	<1,  2, 2, 1, 1, 1, 1>,
+	<2,  2, 2, 1, 1, 1, 1>,
+	<3,  2, 2, 1, 1, 1, 1>,
+	<4,  2, 2, 1, 1, 1, 1>, 
+	<5,  2, 2, 1, 1, 2, 1>,  
+	<6,  2, 2, 1, 1, 2, 1>,
+	<7,  2, 2, 1, 1, 2, 1>, 
+	<8,  2, 2, 1, 1, 2, 1>,
+	<9,  2, 2, 1, 1, 2, 1>,
+	<10, 2, 2, 1, 1, 2, 1>, 
+	<11, 2, 2, 1, 1, 2, 1>,
+	<12, 2, 2, 1, 1, 2, 1>,
+	<13, 2, 2, 1, 1, 3, 0>,
+	<14, 2, 2, 1, 1, 3, 0>, 
+	<15, 2, 2, 1, 1, 3, 0>,
+	<16, 2, 2, 1, 1, 3, 0>,
+	<17, 2, 2, 1, 1, 3, 0>,
+	<18, 2, 2, 1, 1, 3, 0>,
+	<19, 2, 2, 1, 1, 3, 0>, 
+	<20, 2, 2, 1, 1, 3, 0>,
+	
+];
+
+//LA:  Format: <FiberId, Src, Dst, # of wavelengths, Cost, link capacity (in G), length>
+//LA: the length of all the links is considered the same as the network is inside a datacenter.
+//LA: the latency of each link is (lenght/speed of propagation)* refractive index which is 1.46 @ 1550 nm = 5ns per meter
+UniFibers = [
+	<0, 1, 5, 25, 1, 10, 1>, <1, 5, 1, 25, 1, 10, 1>, <2, 1, 7, 25, 1, 10, 1>, <3, 7, 1, 25, 1, 10, 1>,
+	<4, 1, 9, 25, 1, 10, 1>, <5, 9, 1, 25, 1, 10, 1>, <6, 1, 11, 25, 1, 10, 1>, <7, 11, 1, 25, 1, 10, 1>,
+	<8, 2, 5, 25, 1, 10, 1>, <9, 5, 2, 25, 1, 10, 1>, <10, 2, 7, 25, 1, 10, 1>, <11, 7, 2, 25, 1, 10, 1>,
+	<12, 2, 9, 25, 1, 10, 1>, <13, 9, 2, 25, 1, 10, 1>, <14, 2, 11, 25, 1, 10, 1>, <15, 11, 2, 25, 1, 10, 1>,
+	<16, 3, 6, 25, 1, 10, 1>, <17, 6, 3, 25, 1, 10, 1>, <18, 3, 8, 25, 1, 10, 1>, <19, 8, 3, 25, 1, 10, 1>,
+	<20, 3, 10, 25, 1, 10, 1>, <21, 10, 3, 25, 1, 10, 1>, <22, 3, 12, 25, 1, 10, 1>, <23, 12, 3, 25, 1, 10, 1>,
+	<24, 4, 6, 25, 1, 10, 1>, <25, 6, 4, 25, 1, 10, 1>, <26, 4, 8, 25, 1, 10, 1>, <27, 8, 4, 25, 1, 10, 1>,
+	<28, 4, 10, 25, 1, 10, 1>, <29, 10, 4, 25, 1, 10, 1>, <30, 4, 12, 25, 1, 10, 1>, <31, 12, 4, 25, 1, 10, 1>,	
+	<32, 5, 13, 25, 1, 1, 1>, <33, 13, 5, 25, 1, 1, 1>, <34, 5, 14, 25, 1, 1, 1>, <35, 14, 5, 25, 1, 1, 1>, 
+	<36, 6, 13, 25, 1, 1, 1>, <37, 13, 6, 25, 1, 1, 1>, <38, 6, 14, 25, 1, 1, 1>, <39, 14, 6, 25, 1, 1, 1>, 
+	<40, 7, 15, 25, 1, 1, 1>, <41, 15, 7, 25, 1, 1, 1>, <42, 7, 16, 25, 1, 1, 1>, <43, 16, 7, 25, 1, 1, 1>, 
+	<44, 8, 15, 25, 1, 1, 1>, <45, 15, 8, 25, 1, 1, 1>, <46, 8, 16, 25, 1, 1, 1>, <47, 16, 8, 25, 1, 1, 1>, 
+	<48, 9, 17, 25, 1, 1, 1>, <49, 17, 9, 25, 1, 1, 1>, <50, 9, 18, 25, 1, 1, 1>, <51, 18, 9, 25, 1, 1, 1>, 
+	<52, 10, 17, 25, 1, 1, 1>, <53, 17, 10, 25, 1, 1, 1>, <54, 10, 18, 25, 1, 1, 1>, <55, 18, 10, 25, 1, 1, 1>, 
+	<56, 11, 19, 25, 1, 1, 1>, <57, 19, 11, 25, 1, 1, 1>, <58, 11, 20, 25, 1, 1, 1>, <59, 20, 11, 25, 1, 1, 1>, 
+	<60, 12, 19, 25, 1, 1, 1>, <61, 19, 12, 25, 1, 1, 1>, <62, 12, 20, 25, 1, 1, 1>, <63, 20, 12, 25, 1, 1, 1>, 
+	
+];

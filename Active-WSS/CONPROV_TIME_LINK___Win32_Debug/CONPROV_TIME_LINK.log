@@ -1,0 +1,17 @@
+﻿Build started 30/09/2020 13:43:30.
+     1>Project "G:\My data\V18-Filterless-OTN\Dynamic-SC-FON\Active-WSS\CONPROV_TIME_LINK.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         CONPROV_TIME_LINK.vcxproj -> G:\My data\V18-Filterless-OTN\Dynamic-SC-FON\Active-WSS\.\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.exe
+       FinalizeBuildStatus:
+         Deleting file ".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.unsuccessfulbuild".
+         Touching ".\CONPROV_TIME_LINK___Win32_Debug\CONPROV_TIME_LINK.lastbuildstate".
+     1>Done Building Project "G:\My data\V18-Filterless-OTN\Dynamic-SC-FON\Active-WSS\CONPROV_TIME_LINK.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14

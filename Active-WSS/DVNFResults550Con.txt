@@ -1,0 +1,36 @@
+
+_______________________________________________________________________________
+INPUT DATA:
+
+Network topology: BBUHetNet_4G.txt
+Avg arrival rate: 1.200000
+Avg holding time: 1.000000
+Traffic (arr rate * holding time) [Erlang]: 1.200000
+Running phase duration: 10000
+Max tot num of connections to be simulated: 55
+
+RESULTS:
+Simulation Time: 0.088541 - # connections: 56.000000AVERAGE latency = -1.#IND00
+Number of active lightpaths: 0 (PEAK) - 0.000000 (AVERAGE)
+Network cost: 0 (PEAK) - 0.000000 (AVERAGE) [costo rete * time]
+
+Number of provisioned connections: 56
+Number of blocked connections: 0
+BWD of provisioned connections : 56
+BWD of blocked connections : 0
+Blocking probability because of latency: 0 / 0
+Blocking probability because of unreachability: 0 / 0
+
+AVERAGE LATENCY:
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+Blocking probability (connections; overall):
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+BLOCKING PROBABILITY (BWD; overall):
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 Total number of lightpaths activated during the simulation: 49
+
+Real avg arrival rate PER SECOND, PER NETWORK [#connections simulated / simulation time]: 632.474689
+Real avg arrival rate PER SECOND, PER NODE: 7.905934
+Average amount of traffic generated per second, per network : 3794.848133
+Average amount of traffic generated per second, per node : 47.435602
+
+TOTAL NUMBER OF ACTIVATED VNFS : 280
